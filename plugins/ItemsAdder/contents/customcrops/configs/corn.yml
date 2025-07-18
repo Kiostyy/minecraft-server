@@ -1,0 +1,16 @@
+info:
+  namespace: customcrops
+items:
+  corn:
+    enabled: true
+    display_name: Corn
+    lore:
+      - "&7&oA tall grass plant, cultivated for its sweet kernels."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/corn/corn # Link to ItemsAdder/contents/textures/item/corn/{filename}.png
+    consumable:
+      nutrition: 1
+      saturation: 1

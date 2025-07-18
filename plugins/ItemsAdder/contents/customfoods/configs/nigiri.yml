@@ -1,0 +1,32 @@
+info:
+  namespace: customfoods
+items:
+  nigiri:
+    enabled: true
+    display_name: Nigiri
+    lore:
+      - "&7&oA Japanese dish consisting of rice and raw fish."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/nigiri
+    consumable:
+      nutrition: 3
+      saturation: 3
+      can_always_eat: true
+
+# Recipe Section
+recipes:
+  crafting_table:
+    nigiri:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: customfoods:rice
+        B: customfoods:salt
+        C: SALMON
+        D: DRIED_KELP
+      result:
+        item: customfoods:nigiri
+        amount: 3

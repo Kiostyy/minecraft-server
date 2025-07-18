@@ -1,0 +1,30 @@
+info:
+  namespace: customfoods
+items:
+  chickennugget:
+    enabled: true
+    display_name: Chicken Nugget
+    lore:
+      - "&7&oCrispy and delicious chicken nuggets."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/chickennugget
+    consumable:
+      nutrition: 4
+      saturation: 4
+      can_always_eat: true
+
+# Recipe Section
+recipes:
+  crafting_table:
+    chickennugget:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: COOKED_CHICKEN
+        B: customfoods:salt
+      result:
+        item: customfoods:chickennugget
+        amount: 2

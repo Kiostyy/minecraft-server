@@ -1,0 +1,92 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 1
+npc:
+  '0':
+    metadata:
+      cached-skin-uuid: f932c69b-e91b-4e56-a64a-4466d7a5c499
+      cached-skin-uuid-name: tomanimation
+      nameplate-visible: 'true'
+    name: '&bFood Shop'
+    uuid: ef791380-ccb2-402f-8962-5ccc5f017604
+    traits:
+      location:
+        bodyYaw: -72.849434
+        world: world
+        x: 28.2924
+        y: 65.0
+        z: -29.7
+        yaw: -72.8494
+        pitch: -15.9005
+      trader:
+        guiName: shop
+      profession: FARMER
+      spawned: true
+      skintrait:
+        signature: VHb9H60suzuuOLZ4cIcubBCXKbggxQENWZylym/80a7P7cV9XKbqsr+Jbg/yHHIr/q13/feh/Sq1qKNgZHsTd7m0SHkwtLrLDXbUMk6CeiZUE2HUyaobnYTVt3+ugcu7auzlaITXtPEstgwcJ1wI6BlaIJC4c20kHrN62rUCssFjDaKvtVNx2aSjiW0rDZyvJWb2c3INItJFZnIGAacRZow6RQpOnI2L4zNO8BeaoZ+IsmxEDZiEKrMc0mD6jptKYS2ZwZgZfBuVIC4VHFP5v2GZvRBIxFLpajeO5x1ONVPfYdFAYvXE7M4mp9d1PYGxYlUixqJ2QqskkUzO7Ve5YYdJPb7dOS8R7CO84J71KFK9TMPgs8D+g2W2lVkJNALBvpFFFEIj/EwCdSWLd9no5mTkCtfpnyt9Wx3u08Dwn8aAemN/NmKlggiYfJCWlNXg0m1eu1po/QO7S1HCy+ItZRbddFyigNiQTkRUHS5JpXNnHFRmZmPvuUuQqcSu3/6OXEuzc8dIMmZi2cd7j1T2GE/Siqlx8KyxifYtl3IuFRKQ0bc+nibeE67PFfYGPcCgSA3vJ25vIxHcM6UXztBmPbzrtH7Gj3nYDrBreq+42ti68WLIt8ETwTydBUaBdVtX2cl3wd62+mex08pNcmUU0r9Oqs6rf5tpNPs5oYm+NfY=
+        skinName: tomanimation
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1MjY4NDk0NTQ4MSwKICAicHJvZmlsZUlkIiA6ICJmOTMyYzY5YmU5MWI0ZTU2YTY0YTQ0NjZkN2E1YzQ5OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0b21hbmltYXRpb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzVjMjNjZGNkMWQ0MmM2MTE1ZTY1NzhhOGRiNjU3YmYxZWM5MjliMzM4OTlhNzM4OGFlZjEyOTNlOTRlODBjNCIKICAgIH0KICB9Cn0=
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      villagertrait:
+        type: minecraft:snow
+      owner:
+        uuid: da952c78-e50c-388e-8039-b78f6f46004b
+      lookclose:
+        range: 3.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      type: PLAYER
+    traitnames: profession,spawned,scoreboardtrait,owner,rotationtrait,skintrait,trader,lookclose,location,type,inventory,villagertrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '1':
+    metadata:
+      cached-skin-uuid: c9629e71-f2e1-4dcf-9578-4dbc9d22da68
+      cached-skin-uuid-name: sueei_
+    name: '&bMiner Shop'
+    uuid: 93390aec-46f2-4f74-a5a3-1ee796555a5a
+    traits:
+      owner:
+        uuid: da952c78-e50c-388e-8039-b78f6f46004b
+      location:
+        bodyYaw: -85.62387
+        world: world
+        x: 29.437
+        y: 65.0
+        z: -29.4972
+        yaw: -85.6239
+        pitch: -6.8187
+      lookclose:
+        range: 3.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      type: PLAYER
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      skintrait:
+        signature: tfjW8j4PvNjNFGWyMzftuWoaaxIxm+jnaHFc/+nVBuQwgd8p9kQ9EhhJbTBW0MPaCqqfkB/qFBPj/Dev+wN7B/9vFgDRcIUAC7DfQSfSv7ki/um1GTVGe6G3EkHzpJInBK1sRSjAS9b6TPEMlwqP8JIB4AaxTRfRdE562xQpU2Nk1eEGNAcXusqnTxvTb72aGiVTp7qviCZN7jF5gqaf+bRL6c1Z+/nBtIX8hF/El49jJabjfWtOCouGvq7d06Bipeo5t51YYOjZmFwrPaayFjeL8kjDIa5CpPGR3r11sPYwProrvm4cnHYGE6QoC26IGreoP+ULUNPVYVxdtuimFHmo4n2eCqTdgjW7iWUalIAgNOOtuWF/yfgJNdB+z3jJaz55YNJJGV75ucylxfaXwYtkAz7++aAlFvYi8kXEQfsSE2Xp6DutVhR36p9kJ1WbI8Z2Vqszr6z5ehADlbwgY9397ooFrU31pvfkqFCWZ6hRLR/yRz+NcS9U52fC9XkjEFa/Kv1YgeHc7acjCiLlcPxrtpnZeNXn5uq7RO9EfQnb2hsSn30VNoITDpeG94oFD7dydeN2ZpjvzKKVOJ/UFTKL7zK0SAd2lHjCIB6KLgfb086p2TwQ/CuiUdVg9nps0Vzn7yJM0JbQe67dcLURApVcQMdNtrjH6I1DkBNYV84=
+        skinName: sueei_
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1MjY4NTA1MzQyNywKICAicHJvZmlsZUlkIiA6ICJjOTYyOWU3MWYyZTE0ZGNmOTU3ODRkYmM5ZDIyZGE2OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdWVlaV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDBhZmMwZTIwMDRmYWRkY2E3YTk4OWI5NWI2NzNmMDA2ZDU2YTg2YjZmYzc1MTY2OWIyNzYzYWQzNzgwNjQyNCIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=
+      spawned: true
+      trader:
+        guiName: minershop
+    traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,lookclose,trader,location,type,inventory
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false

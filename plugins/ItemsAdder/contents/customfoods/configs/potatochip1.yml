@@ -1,0 +1,31 @@
+info:
+  namespace: customfoods
+items:
+    potatochip1:
+      enabled: true
+      display_name: Potato Chip Salt and Vinegar
+      lore:
+        - "&7&oA crispy snack salt and vinegar flavoured."
+      resource:
+        material: APPLE
+        generate: true
+        textures:
+          - item/potatochip1
+      consumable:
+        nutrition: 6
+        saturation: 6
+        can_always_eat: true
+
+# Recipe Section
+recipes:
+  crafting_table:
+    potatochip1:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: BAKED_POTATO
+        B: customfoods:salt
+        C: customfoods:vinegar
+      result:
+        item: customfoods:potatochip1
+        amount: 1

@@ -1,0 +1,16 @@
+info:
+  namespace: customcrops
+items:
+  pepper:
+    enabled: true
+    display_name: Pepper
+    lore:
+      - "&7&oA spicy fruit, used to add heat to dishes."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/pepper/pepper # Link to ItemsAdder/contents/textures/item/pepper/{filename}.png
+    consumable:
+      nutrition: 1
+      saturation: 1

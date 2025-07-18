@@ -1,0 +1,16 @@
+info:
+  namespace: customcrops
+items:
+  eggplant:
+    enabled: true
+    display_name: Eggplant
+    lore:
+      - "&7&oA glossy purple fruit, used in various dishes."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/eggplant/eggplant # Link to ItemsAdder/contents/textures/item/eggplant/{filename}.png
+    consumable:
+      nutrition: 1
+      saturation: 1

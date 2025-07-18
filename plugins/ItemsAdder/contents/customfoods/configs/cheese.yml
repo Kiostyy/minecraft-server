@@ -1,0 +1,36 @@
+info:
+  namespace: customfoods
+items:
+  cheese:
+    enabled: true
+    display_name: Cheese
+    lore:
+      - "&7&oA creamy dairy product made from milk."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/cheese
+    consumable:
+      nutrition: 2
+      saturation: 2
+      can_always_eat: true
+
+# Recipe Section
+recipes:
+  cooking:
+    cheese:
+      ingredient:
+        item: MILK_BUCKET
+      machines:
+        - FURNACE
+        - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: customfoods:cheese
+        amount: 8
+      return_items:
+        bucket:
+          item: minecraft:bucket
+          amount: 1

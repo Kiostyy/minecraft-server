@@ -1,0 +1,33 @@
+info:
+  namespace: customfoods
+items:
+  taco:
+    enabled: true
+    display_name: Taco
+    lore:
+      - "&7&oA delicious taco filled with seasoned meat and vegetables."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/taco
+    consumable:
+      nutrition: 8
+      saturation: 8
+      can_always_eat: true
+
+# Recipe Section
+recipes:
+  crafting_table:
+    taco:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: BREAD
+        B: customfoods:salt
+        C: COOKED_BEEF
+        D: customcrops:tomato
+        E: customcrops:lettuce
+      result:
+        item: customfoods:taco
+        amount: 2

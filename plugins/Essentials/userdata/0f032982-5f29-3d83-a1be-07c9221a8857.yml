@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 161.142.145.134
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1752681320837
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1752685387018
+  login: 1752682718724
+money: '116.0'
+last-account-name: Rowingg
+lastlocation:
+  world: a55aa827-92ff-4b5b-ad93-148a2dce7eaa
+  world-name: world
+  x: -336.23633128768085
+  y: 61.28321923294274
+  z: 3.438095180212987
+  yaw: 36.9114990234375
+  pitch: -31.19975471496582
+logoutlocation:
+  world: a55aa827-92ff-4b5b-ad93-148a2dce7eaa
+  world-name: world
+  x: 32.92262153937776
+  y: 65.0
+  z: -28.197446607811994
+  yaw: -67.93951416015625
+  pitch: 21.15001678466797

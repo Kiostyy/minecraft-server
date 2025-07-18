@@ -1,0 +1,29 @@
+info:
+  namespace: customfoods
+items:
+  salmonsashimi:
+    enabled: true
+    display_name: Salmon Sashimi
+    lore:
+      - "&7&oA delicacy made from fresh salmon, served raw."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/salmonsashimi
+    consumable:
+      nutrition: 4
+      saturation: 4
+      can_always_eat: true
+
+# Recipe Section
+recipes:
+  crafting_table:
+    salmonsashimi:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: SALMON
+      result:
+        item: customfoods:salmonsashimi
+        amount: 2

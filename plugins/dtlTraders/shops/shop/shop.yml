@@ -1,0 +1,549 @@
+shop:
+  title: Shop
+  command: none
+  permission: none
+  default-shop: sell
+  buy-shop-enabled: false
+  sell-shop-enabled: true
+  trade-shop-enabled: false
+  logging-enabled: false
+  close-after-purchase: false
+  pages:
+    page-0:
+      size: 54
+      page-name: Food
+      page-permission: ''
+      sell-items:
+        item-0:
+          id: 10
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4325
+            id: minecraft:paper
+            count: 1
+            components:
+              minecraft:custom_name: '{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Help",underlined:0b}],text:""}'
+              minecraft:custom_model_data: '{floats:[10002.0f]}'
+              minecraft:custom_data: '{itemsadder:{id:"icon_search",namespace:"_iainternal"}}'
+              minecraft:item_name: '{color:"white",italic:0b,text:"Search"}'
+            schema_version: 1
+          display-name: §bHelp
+          show-description: true
+          description:
+          - '&e[Right Click] &fto sell 1 pcs.'
+          - '&e[Shift + Right Click] &fto sell 1 stack.'
+        item-12:
+          id: 9
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4325
+            id: minecraft:apple
+            count: 1
+            components:
+              minecraft:food: '{nutrition:4,saturation:4.0f}'
+              minecraft:lore: '[{extra:[{bold:0b,color:"gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"Who
+                doesn''t love fries?",underlined:0b}],text:""}]'
+              minecraft:consumable: '{consume_seconds:2.0f}'
+              minecraft:custom_name: '{color:"white",italic:0b,text:"Fries"}'
+              minecraft:custom_model_data: '{floats:[10005.0f]}'
+              minecraft:custom_data: '{itemsadder:{id:"fries",namespace:"customfoods"}}'
+              minecraft:item_name: '{color:"white",italic:0b,text:"Fries"}'
+            schema_version: 1
+          show-lore: false
+          display-lore:
+          - §7§oWho doesn't love fries?
+          show-description: false
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 09/07/2025 17:29:37
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 09/07/2025 17:29:37
+          show-price: true
+          trade-price: 1.0
+          custom-input-enabled: false
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-13:
+          id: 11
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4325
+            id: minecraft:apple
+            count: 1
+            components:
+              minecraft:food: '{nutrition:4,saturation:4.0f}'
+              minecraft:lore: '[{extra:[{bold:0b,color:"gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"Crispy
+                and delicious onion rings.",underlined:0b}],text:""}]'
+              minecraft:consumable: '{consume_seconds:2.0f}'
+              minecraft:custom_name: '{color:"white",italic:0b,text:"Onion Ring"}'
+              minecraft:custom_model_data: '{floats:[10022.0f]}'
+              minecraft:custom_data: '{itemsadder:{id:"onionring",namespace:"customfoods"}}'
+              minecraft:item_name: '{color:"white",italic:0b,text:"Onion Ring"}'
+            schema_version: 1
+          show-lore: false
+          display-lore:
+          - §7§oCrispy and delicious onion rings.
+          show-description: false
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 09/07/2025 18:17:06
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 09/07/2025 18:17:06
+          show-price: true
+          trade-price: 1.5
+          custom-input-enabled: false
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-14:
+          id: 14
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4325
+            id: minecraft:apple
+            count: 1
+            components:
+              minecraft:food: '{nutrition:4,saturation:4.0f}'
+              minecraft:lore: '[{extra:[{bold:0b,color:"gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"Crispy
+                and delicious chicken nuggets.",underlined:0b}],text:""}]'
+              minecraft:consumable: '{consume_seconds:2.0f}'
+              minecraft:custom_name: '{color:"white",italic:0b,text:"Chicken Nugget"}'
+              minecraft:custom_model_data: '{floats:[10004.0f]}'
+              minecraft:custom_data: '{itemsadder:{id:"chickennugget",namespace:"customfoods"}}'
+              minecraft:item_name: '{color:"white",italic:0b,text:"Chicken Nugget"}'
+            schema_version: 1
+          show-lore: false
+          display-lore:
+          - §7§oCrispy and delicious chicken nuggets.
+          show-description: false
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 09/07/2025 18:19:06
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 09/07/2025 18:19:06
+          show-price: true
+          trade-price: 4.0
+          custom-input-enabled: false
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-20:
+          id: 13
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4325
+            id: minecraft:apple
+            count: 1
+            components:
+              minecraft:food: '{nutrition:3,saturation:3.0f}'
+              minecraft:lore: '[{extra:[{bold:0b,color:"gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"A
+                Japanese dish consisting of rice and raw fish.",underlined:0b}],text:""}]'
+              minecraft:consumable: '{consume_seconds:2.0f}'
+              minecraft:custom_name: '{color:"white",italic:0b,text:"Nigiri"}'
+              minecraft:custom_model_data: '{floats:[10003.0f]}'
+              minecraft:custom_data: '{itemsadder:{id:"nigiri",namespace:"customfoods"}}'
+              minecraft:item_name: '{color:"white",italic:0b,text:"Nigiri"}'
+            schema_version: 1
+          show-lore: false
+          display-lore:
+          - §7§oA Japanese dish consisting of rice and raw fish.
+          show-description: false
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 09/07/2025 18:18:42
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 09/07/2025 18:18:42
+          show-price: true
+          trade-price: 3.0
+          custom-input-enabled: false
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-21:
+          id: 12
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4325
+            id: minecraft:apple
+            count: 1
+            components:
+              minecraft:food: '{nutrition:4,saturation:4.0f}'
+              minecraft:lore: '[{extra:[{bold:0b,color:"gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"A
+                delicacy made from fresh salmon, served raw.",underlined:0b}],text:""}]'
+              minecraft:consumable: '{consume_seconds:2.0f}'
+              minecraft:custom_name: '{color:"white",italic:0b,text:"Salmon Sashimi"}'
+              minecraft:custom_model_data: '{floats:[10000.0f]}'
+              minecraft:custom_data: '{itemsadder:{id:"salmonsashimi",namespace:"customfoods"}}'
+              minecraft:item_name: '{color:"white",italic:0b,text:"Salmon Sashimi"}'
+            schema_version: 1
+          show-lore: false
+          display-lore:
+          - §7§oA delicacy made from fresh salmon, served raw.
+          show-description: false
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 09/07/2025 18:18:18
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 09/07/2025 18:18:18
+          show-price: true
+          trade-price: 0.5
+          custom-input-enabled: false
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-23:
+          id: 16
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4325
+            id: minecraft:apple
+            count: 1
+            components:
+              minecraft:food: '{nutrition:8,saturation:8.0f}'
+              minecraft:lore: '[{extra:[{bold:0b,color:"gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"A
+                delicious taco filled with seasoned meat and vegetables.",underlined:0b}],text:""}]'
+              minecraft:consumable: '{consume_seconds:2.0f}'
+              minecraft:custom_name: '{color:"white",italic:0b,text:"Taco"}'
+              minecraft:custom_model_data: '{floats:[10009.0f]}'
+              minecraft:custom_data: '{itemsadder:{id:"taco",namespace:"customfoods"}}'
+              minecraft:item_name: '{color:"white",italic:0b,text:"Taco"}'
+            schema_version: 1
+          show-lore: false
+          display-lore:
+          - §7§oA delicious taco filled with seasoned meat and vegetables.
+          show-description: false
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 09/07/2025 18:19:37
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 09/07/2025 18:19:37
+          show-price: true
+          trade-price: 10.0
+          custom-input-enabled: false
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-24:
+          id: 17
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4325
+            id: minecraft:apple
+            count: 1
+            components:
+              minecraft:food: '{nutrition:10,saturation:10.0f}'
+              minecraft:lore: '[{extra:[{bold:0b,color:"gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"A
+                delicious pizza topped with fresh vegetables.",underlined:0b}],text:""}]'
+              minecraft:consumable: '{consume_seconds:2.0f}'
+              minecraft:custom_name: '{color:"white",italic:0b,text:"Veggie Pizza"}'
+              minecraft:custom_model_data: '{floats:[10008.0f]}'
+              minecraft:custom_data: '{itemsadder:{id:"vegepizza",namespace:"customfoods"}}'
+              minecraft:item_name: '{color:"white",italic:0b,text:"Veggie Pizza"}'
+            schema_version: 1
+          show-lore: false
+          display-lore:
+          - §7§oA delicious pizza topped with fresh vegetables.
+          show-description: false
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 09/07/2025 18:19:45
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 09/07/2025 18:19:45
+          show-price: true
+          trade-price: 12.0
+          custom-input-enabled: false
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-30:
+          id: 23
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4325
+            id: minecraft:apple
+            count: 1
+            components:
+              minecraft:food: '{nutrition:6,saturation:6.0f}'
+              minecraft:lore: '[{extra:[{bold:0b,color:"gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"A
+                crispy snack classic.",underlined:0b}],text:""}]'
+              minecraft:consumable: '{consume_seconds:2.0f}'
+              minecraft:custom_name: '{color:"white",italic:0b,text:"Potato Chip Classic"}'
+              minecraft:custom_model_data: '{floats:[10006.0f]}'
+              minecraft:custom_data: '{itemsadder:{id:"potatochip",namespace:"customfoods"}}'
+              minecraft:item_name: '{color:"white",italic:0b,text:"Potato Chip Classic"}'
+            schema_version: 1
+          show-lore: false
+          display-lore:
+          - §7§oA crispy snack classic.
+          show-description: false
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 10/07/2025 00:19:31
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 10/07/2025 00:19:31
+          show-price: true
+          trade-price: 1.0
+          custom-input-enabled: false
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-31:
+          id: 20
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4325
+            id: minecraft:apple
+            count: 1
+            components:
+              minecraft:food: '{nutrition:6,saturation:6.0f}'
+              minecraft:lore: '[{extra:[{bold:0b,color:"gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"A
+                crispy snack sour cream and onion flavoured.",underlined:0b}],text:""}]'
+              minecraft:consumable: '{consume_seconds:2.0f}'
+              minecraft:custom_name: '{color:"white",italic:0b,text:"Potato Chip Sour
+                Cream and Onion"}'
+              minecraft:custom_model_data: '{floats:[10025.0f]}'
+              minecraft:custom_data: '{itemsadder:{id:"potatochip2",namespace:"customfoods"}}'
+              minecraft:item_name: '{color:"white",italic:0b,text:"Potato Chip Sour
+                Cream and Onion"}'
+            schema_version: 1
+          show-lore: false
+          display-lore:
+          - §7§oA crispy snack sour cream and onion flavoured.
+          show-description: false
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 10/07/2025 00:17:11
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 10/07/2025 00:17:11
+          show-price: true
+          trade-price: 7.0
+          custom-input-enabled: false
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-32:
+          id: 21
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4325
+            id: minecraft:apple
+            count: 1
+            components:
+              minecraft:food: '{nutrition:6,saturation:6.0f}'
+              minecraft:lore: '[{extra:[{bold:0b,color:"gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"A
+                crispy snack salt and vinegar flavoured.",underlined:0b}],text:""}]'
+              minecraft:consumable: '{consume_seconds:2.0f}'
+              minecraft:custom_name: '{color:"white",italic:0b,text:"Potato Chip Salt
+                and Vinegar"}'
+              minecraft:custom_model_data: '{floats:[10024.0f]}'
+              minecraft:custom_data: '{itemsadder:{id:"potatochip1",namespace:"customfoods"}}'
+              minecraft:item_name: '{color:"white",italic:0b,text:"Potato Chip Salt
+                and Vinegar"}'
+            schema_version: 1
+          show-lore: false
+          display-lore:
+          - §7§oA crispy snack salt and vinegar flavoured.
+          show-description: false
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 10/07/2025 00:18:06
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 10/07/2025 00:18:06
+          show-price: true
+          trade-price: 7.0
+          custom-input-enabled: false
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false

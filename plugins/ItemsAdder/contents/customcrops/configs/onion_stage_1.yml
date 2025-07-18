@@ -1,0 +1,65 @@
+info:
+  namespace: customcrops
+items:
+  onion_seeds:
+    enabled: true
+    display_name: "Onion Seeds"
+    lore:
+      - "&7&oA pungent bulb, essential for many dishes."
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - item/onion/onion_seeds # Link to ItemsAdder/contents/textures/item/onion/{filename}.png
+        
+  onion_stage_1:
+    enabled: true
+    display_name: onion_stage_1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/onion/onion_stage_1 # Link to ItemsAdder/contents/textures/item/onion/{filename}.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+
+  onion_stage_2:
+    enabled: true
+    display_name: onion_stage_2
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/onion/onion_stage_2 # Link to ItemsAdder/contents/textures/item/onion/{filename}.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+
+  onion_stage_3:
+    enabled: true
+    display_name: onion_stage_3
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/onion/onion_stage_3 # Link to ItemsAdder/contents/textures/item/onion/{filename}.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+
+  onion_stage_4:
+    enabled: true
+    display_name: onion_stage_4
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/onion/onion_stage_4 # Link to ItemsAdder/contents/textures/item/onion/{filename}.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true

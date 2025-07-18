@@ -1,0 +1,19 @@
+{
+  "uuid": "74802323-3893-3bf6-9317-51058f28a595",
+  "harvest_items": 59,
+  "dropsMap": {
+    "1751894253423": {
+      "id": 1751894253423,
+      "allHarvest": 19,
+      "maxSize": 0.0
+    },
+    "1751375335415": {
+      "id": 1751375335415,
+      "allHarvest": 40,
+      "maxSize": 0.0
+    }
+  },
+  "limit_map": {},
+  "level": 0,
+  "experience": 0.0
+}

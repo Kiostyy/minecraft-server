@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 172.56.2.146
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1750100716280
+  login: 1750100520835
+money: '0'
+last-account-name: ykdamii
+lastlocation:
+  world: a55aa827-92ff-4b5b-ad93-148a2dce7eaa
+  world-name: world
+  x: 6.5
+  y: 64.0
+  z: -0.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: a55aa827-92ff-4b5b-ad93-148a2dce7eaa
+  world-name: world
+  x: -12.016963948989044
+  y: 63.0
+  z: -10.543575788317176
+  yaw: -9.44989013671875
+  pitch: 8.100090980529785

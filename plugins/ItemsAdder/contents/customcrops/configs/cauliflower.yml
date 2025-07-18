@@ -1,0 +1,16 @@
+info:
+  namespace: customcrops
+items:
+  cauliflower:
+    enabled: true
+    display_name: Cauliflower
+    lore:
+      - "&7&oA white vegetable, similar to broccoli."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/cauliflower/cauliflower # Link to ItemsAdder/contents/textures/item/cauliflower/{filename}.png
+    consumable:
+      nutrition: 1
+      saturation: 1

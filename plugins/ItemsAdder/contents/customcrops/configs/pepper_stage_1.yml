@@ -1,0 +1,65 @@
+info:
+  namespace: customcrops
+items:
+  pepper_seeds:
+    enabled: true
+    display_name: "Pepper Seeds"
+    lore:
+      - "&7&oPlant these seeds to grow peppers."
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - item/pepper/seeds # Link to ItemsAdder/contents/textures/item/pepper/{filename}.png
+
+  pepper_stage_1:
+    enabled: true
+    display_name: pepper_stage_1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/pepper/stage_1 # Link to ItemsAdder/contents/textures/item/pepper/{filename}.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+
+  pepper_stage_2:
+    enabled: true
+    display_name: pepper_stage_2
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/pepper/stage_2 # Link to ItemsAdder/contents/textures/item/pepper/{filename}.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+
+  pepper_stage_3:
+    enabled: true
+    display_name: pepper_stage_3
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/pepper/stage_3 # Link to ItemsAdder/contents/textures/item/pepper/{filename}.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+
+  pepper_stage_4:
+    enabled: true
+    display_name: pepper_stage_4
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/pepper/stage_4 # Link to ItemsAdder/contents/textures/item/pepper/{filename}.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true

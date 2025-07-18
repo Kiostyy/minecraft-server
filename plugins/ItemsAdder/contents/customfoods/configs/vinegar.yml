@@ -1,0 +1,38 @@
+info:
+  namespace: customfoods
+items:
+  vinegar:
+    enabled: true
+    display_name: Vinegar
+    lore:
+      - "&7&oPerfect for seasoning your food!"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - item/vinegar
+    consumable:
+      nutrition: 0
+      saturation: 1
+      can_always_eat: true
+    events:
+        eat:
+          potion_effect:
+            type: NAUSEA
+            amplifier: 1
+            duration: 120
+    
+# Recipe Section
+recipes:
+  cooking:
+    vinegar:
+      ingredient:
+        item: MELON_SLICE
+      machines:
+        - FURNACE
+        - SMOKER
+      exp: 1
+      cook_time: 400
+      result:
+        item: customfoods:vinegar
+        amount: 1

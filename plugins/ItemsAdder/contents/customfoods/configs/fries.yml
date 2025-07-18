@@ -1,0 +1,30 @@
+info:
+  namespace: customfoods
+items:
+  fries:
+    enabled: true
+    display_name: Fries
+    lore:
+      - "&7&oWho doesn't love fries?"
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/fries
+    consumable:
+      nutrition: 4
+      saturation: 4
+      can_always_eat: true
+
+# Recipe Section
+recipes:
+  crafting_table:
+    fries:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: BAKED_POTATO
+        B: customfoods:salt
+      result:
+        item: customfoods:fries
+        amount: 2

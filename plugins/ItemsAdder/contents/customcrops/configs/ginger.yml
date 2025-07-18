@@ -1,0 +1,16 @@
+info:
+  namespace: customcrops
+items:
+  ginger:
+    enabled: true
+    display_name: Ginger
+    lore:
+      - "&7&oA spicy root, used in cooking and herbal remedies."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/ginger/ginger # Link to ItemsAdder/contents/textures/item/ginger/{filename}.png
+    consumable:
+      nutrition: 1
+      saturation: 1

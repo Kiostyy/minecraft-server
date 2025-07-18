@@ -1,0 +1,16 @@
+info:
+  namespace: customcrops
+items:
+  garlic:
+    enabled: true
+    display_name: Garlic
+    lore:
+      - "&7&oA pungent bulb used to flavor dishes."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/garlic/garlic # Link to ItemsAdder/contents/textures/item/garlic/{filename}.png
+    consumable:
+      nutrition: 1
+      saturation: 1

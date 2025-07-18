@@ -1,0 +1,16 @@
+info:
+  namespace: customcrops
+items:
+  onion:
+    enabled: true
+    display_name: Onion
+    lore:
+      - "&7&oA pungent bulb vegetable, used in many dishes."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/onion/onion # Link to ItemsAdder/contents/textures/item/onion/{filename}.png
+    consumable:
+      nutrition: 1
+      saturation: 1

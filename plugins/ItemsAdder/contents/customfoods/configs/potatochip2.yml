@@ -1,0 +1,38 @@
+info:
+  namespace: customfoods
+items:
+    potatochip2:
+      enabled: true
+      display_name: Potato Chip Sour Cream and Onion
+      lore:
+        - "&7&oA crispy snack sour cream and onion flavoured."
+      resource:
+        material: APPLE
+        generate: true
+        textures:
+          - item/potatochip2
+      consumable:
+        nutrition: 6
+        saturation: 6
+        can_always_eat: true
+      events:
+        eat:
+          potion_effect:
+            type: REGENERATION
+            amplifier: 1
+            duration: 60
+
+
+# Recipe Section
+recipes:
+  crafting_table:
+    potatochip2:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: BAKED_POTATO
+        B: customcrops:onion
+        C: customfoods:vinegar
+      result:
+        item: customfoods:potatochip2
+        amount: 1

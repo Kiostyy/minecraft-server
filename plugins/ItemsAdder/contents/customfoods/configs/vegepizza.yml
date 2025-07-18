@@ -1,0 +1,34 @@
+info:
+  namespace: customfoods
+items:
+  vegepizza:
+    enabled: true
+    display_name: Veggie Pizza
+    lore:
+      - "&7&oA delicious pizza topped with fresh vegetables."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/vegepizza
+    consumable:
+      nutrition: 10
+      saturation: 10
+      can_always_eat: true
+
+# Recipe Section
+recipes:
+  crafting_table:
+    vegepizza:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: customfoods:dough
+        B: customfoods:cheese
+        C: customcrops:tomato
+        D: customcrops:bellpepper
+        E: BROWN_MUSHROOM
+        F: customcrops:onion
+      result:
+        item: customfoods:vegepizza
+        amount: 1

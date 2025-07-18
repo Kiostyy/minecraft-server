@@ -1,0 +1,262 @@
+minershop:
+  title: Miner Shop
+  command: none
+  permission: none
+  default-shop: sell
+  buy-shop-enabled: false
+  sell-shop-enabled: true
+  trade-shop-enabled: false
+  logging-enabled: false
+  close-after-purchase: false
+  pages:
+    page-0:
+      size: 54
+      page-name: Ores
+      page-permission: ''
+      sell-items:
+        item-20:
+          id: 46
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4325
+            id: minecraft:copper_ingot
+            count: 1
+            schema_version: 1
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 11/07/2025 00:15:17
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 11/07/2025 00:15:17
+          show-price: true
+          trade-price: 2.5
+          custom-input-enabled: false
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-21:
+          id: 47
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4325
+            id: minecraft:iron_ingot
+            count: 1
+            schema_version: 1
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 11/07/2025 00:15:26
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 11/07/2025 00:15:26
+          show-price: true
+          trade-price: 4.0
+          custom-input-enabled: false
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-22:
+          id: 48
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4325
+            id: minecraft:diamond
+            count: 1
+            schema_version: 1
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 11/07/2025 00:15:34
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 11/07/2025 00:15:34
+          show-price: true
+          trade-price: 10.0
+          custom-input-enabled: false
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-23:
+          id: 50
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4325
+            id: minecraft:emerald
+            count: 1
+            schema_version: 1
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 11/07/2025 00:15:57
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 11/07/2025 00:15:57
+          show-price: true
+          trade-price: 12.5
+          custom-input-enabled: false
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-24:
+          id: 49
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4325
+            id: minecraft:gold_ingot
+            count: 1
+            schema_version: 1
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 11/07/2025 00:15:45
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 11/07/2025 00:15:45
+          show-price: true
+          trade-price: 6.0
+          custom-input-enabled: false
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-31:
+          id: 51
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4325
+            id: minecraft:netherite_ingot
+            count: 1
+            schema_version: 1
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 11/07/2025 00:16:04
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 11/07/2025 00:16:04
+          show-price: true
+          trade-price: 20.0
+          custom-input-enabled: false
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false

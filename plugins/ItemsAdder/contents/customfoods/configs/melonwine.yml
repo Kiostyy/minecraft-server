@@ -1,0 +1,44 @@
+info:
+  namespace: customfoods
+items:
+    melonwine:
+      enabled: true
+      display_name: Melon Wine
+      lore:
+        - "&7&oA refreshing drink made from fermented melons."
+      resource:
+        material: APPLE
+        generate: true
+        textures:
+          - item/melonwine
+      consumable:
+        nutrition: 6
+        saturation: 0
+        can_always_eat: true
+      events:
+        drink:
+          potion_effect:
+            type: NAUSEA
+            amplifier: 1
+            duration: 240
+          
+
+
+# Recipe Section
+recipes:
+  crafting_table:
+    melonwine:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: MELON_SLICE
+        B: WATER_BUCKET
+        C: SUGAR
+        D: WHEAT
+      result:
+        item: customfoods:melonwine
+        amount: 1
+      return_items:
+        bucket:
+          item: BUCKET
+          amount: 1

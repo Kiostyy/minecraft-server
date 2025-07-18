@@ -1,0 +1,65 @@
+info:
+  namespace: customcrops
+items:
+  lettuce_seeds:
+    enabled: true
+    display_name: "Lettuce Seeds"
+    lore:
+      - "&7&oPlant these seeds to grow lettuce."
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - item/lettuce/seeds # Link to ItemsAdder/contents/textures/item/lettuce/{filename}.png
+
+  lettuce_stage_1:
+    enabled: true
+    display_name: lettuce_stage_1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/lettuce/stage_1 # Link to ItemsAdder/contents/textures/item/lettuce/{filename}.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+
+  lettuce_stage_2:
+    enabled: true
+    display_name: lettuce_stage_2
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/lettuce/stage_2 # Link to ItemsAdder/contents/textures/item/lettuce/{filename}.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+
+  lettuce_stage_3:
+    enabled: true
+    display_name: lettuce_stage_3
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/lettuce/stage_3 # Link to ItemsAdder/contents/textures/item/lettuce/{filename}.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+
+  lettuce_stage_4:
+    enabled: true
+    display_name: lettuce_stage_4
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/lettuce/stage_4 # Link to ItemsAdder/contents/textures/item/lettuce/{filename}.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true

@@ -1,0 +1,65 @@
+info:
+  namespace: customcrops
+items:
+  corn_seeds:
+    enabled: true
+    display_name: "Corn Seeds"
+    lore:
+      - "&7&oPlant these seeds to grow corn."
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - item/corn/seeds # Link to ItemsAdder/contents/textures/item/corn/{filename}.png
+
+  corn_stage_1:
+    enabled: true
+    display_name: corn_stage_1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/corn/stage_1 # Link to ItemsAdder/contents/textures/item/corn/{filename}.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+
+  corn_stage_2:
+    enabled: true
+    display_name: corn_stage_2
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/corn/stage_2 # Link to ItemsAdder/contents/textures/item/corn/{filename}.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+
+  corn_stage_3:
+    enabled: true
+    display_name: corn_stage_3
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/corn/stage_3 # Link to ItemsAdder/contents/textures/item/corn/{filename}.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+
+  corn_stage_4:
+    enabled: true
+    display_name: corn_stage_4
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/corn/stage_4 # Link to ItemsAdder/contents/textures/item/corn/{filename}.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true

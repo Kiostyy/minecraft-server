@@ -1,0 +1,16 @@
+info:
+  namespace: customcrops
+items:
+  lettuce:
+    enabled: true
+    display_name: Lettuce
+    lore:
+      - "&7&oA leafy green vegetable, great for salads and cooking."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/lettuce/lettuce # Link to ItemsAdder/contents/textures/item/lettuce/{filename}.png
+    consumable:
+      nutrition: 1
+      saturation: 1

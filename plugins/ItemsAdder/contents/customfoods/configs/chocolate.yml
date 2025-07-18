@@ -1,0 +1,32 @@
+info:
+  namespace: customfoods
+items:
+  chocolate:
+    enabled: true
+    display_name: Chocolate
+    lore:
+      - "&7&oA sweet treat made from cocoa."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/chocolate
+    consumable:
+      nutrition: 2
+      saturation: 2
+      can_always_eat: true
+
+# Recipe Section
+recipes:
+  cooking:
+    chocolate:
+      ingredient:
+        item: COCOA_BEANS
+      machines:
+        - FURNACE
+        - SMOKER
+      exp: 1
+      cook_time: 600
+      result:
+        item: customfoods:chocolate
+        amount: 1

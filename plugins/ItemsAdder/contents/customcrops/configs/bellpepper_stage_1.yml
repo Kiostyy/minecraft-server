@@ -1,0 +1,65 @@
+info:
+  namespace: customcrops
+items:
+  bellpepper_seeds:
+    enabled: true
+    display_name: "Bell Pepper Seeds"
+    lore:
+      - "&7&oPlant these seeds to grow bell peppers."
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - item/bellpepper/seeds # Link to ItemsAdder/contents/textures/item/bellpepper/{filename}.png
+
+  bellpepper_stage_1:
+    enabled: true
+    display_name: bellpepper_stage_1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/bellpepper/stage_1 # Link to ItemsAdder/contents/textures/item/bellpepper/{filename}.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+
+  bellpepper_stage_2:
+    enabled: true
+    display_name: bellpepper_stage_2
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/bellpepper/stage_2 # Link to ItemsAdder/contents/textures/item/bellpepper/{filename}.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+
+  bellpepper_stage_3:
+    enabled: true
+    display_name: bellpepper_stage_3
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/bellpepper/stage_3 # Link to ItemsAdder/contents/textures/item/bellpepper/{filename}.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+
+  bellpepper_stage_4:
+    enabled: true
+    display_name: bellpepper_stage_4
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/bellpepper/stage_4 # Link to ItemsAdder/contents/textures/item/bellpepper/{filename}.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true

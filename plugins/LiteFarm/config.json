@@ -1,0 +1,18 @@
+{
+  "version": "3.16.8",
+  "settings": {
+    "time_format": "{#E7BB91}%days_{#E7CBB3}d %{#E7BB91}%hours_{#E7CBB3}h %{#E7BB91}%minutes_{#E7CBB3}min %{#E7BB91}%seconds_{#E7CBB3}sec %",
+    "harvest_right_click": false,
+    "harvest_to_private": false,
+    "spawn_entity_from_egg": false,
+    "replant": false,
+    "auto_update_customization": true,
+    "auto_save": 300.0,
+    "move_to_inventory": false,
+    "action_bar": false,
+    "plugin_prefix": "{#9CFFA7}[Farming]§7 %msg%",
+    "auto_set_block": false,
+    "head_place_block": true,
+    "auto_spawn_entity": false
+  }
+}

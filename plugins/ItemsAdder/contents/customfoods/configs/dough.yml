@@ -1,0 +1,34 @@
+info:
+  namespace: customfoods
+items:
+  dough:
+    enabled: true
+    display_name: Dough
+    lore:
+      - "&7&oA soft and pliable mixture used for baking."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/dough
+    consumable:
+      nutrition: 4
+      saturation: 4
+      can_always_eat: true
+
+# Recipe Section
+recipes:
+  crafting_table:
+    dough:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: customfoods:flour
+        B: WATER_BUCKET
+      result:
+        item: customfoods:dough
+        amount: 2
+      return_items:
+        bucket:
+          item: BUCKET
+          amount: 1

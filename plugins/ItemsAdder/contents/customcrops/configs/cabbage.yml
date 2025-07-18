@@ -1,0 +1,16 @@
+info:
+  namespace: customcrops
+items:
+  cabbage:
+    enabled: true
+    display_name: Cabbage
+    lore:
+      - "&7&oA leafy green vegetable, great for salads and cooking."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/cabbage/cabbage # Link to ItemsAdder/contents/textures/item/cabbage/{filename}.png
+    consumable:
+      nutrition: 1
+      saturation: 1

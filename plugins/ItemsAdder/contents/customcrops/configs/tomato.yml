@@ -1,0 +1,16 @@
+info:
+  namespace: customcrops
+items:
+  tomato:
+    enabled: true
+    display_name: Tomato
+    lore:
+      - "&7&oA juicy red fruit, perfect for salads and sauces."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/tomato/tomato # Link to ItemsAdder/contents/textures/item/tomato/{filename}.png
+    consumable:
+      nutrition: 1
+      saturation: 1

@@ -1,0 +1,30 @@
+info:
+  namespace: customfoods
+items:
+  potatochip:
+    enabled: true
+    display_name: Potato Chip Classic
+    lore:
+      - "&7&oA crispy snack classic."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/potatochip
+    consumable:
+      nutrition: 6
+      saturation: 6
+      can_always_eat: true
+
+# Recipe Section
+recipes:
+  crafting_table:
+    potatochip:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: BAKED_POTATO
+        B: customfoods:salt
+      result:
+        item: customfoods:potatochip
+        amount: 1

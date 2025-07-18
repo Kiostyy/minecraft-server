@@ -1,0 +1,32 @@
+info:
+  namespace: customfoods
+items:
+  onionring:
+    enabled: true
+    display_name: Onion Ring
+    lore:
+      - "&7&oCrispy and delicious onion rings."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/onionring
+    consumable:
+      nutrition: 4
+      saturation: 4
+      can_always_eat: true
+
+# Recipe Section
+recipes:
+  cooking:
+    onionring:
+      ingredient:
+        item: customcrops:onion
+      machines:
+        - FURNACE
+        - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: customfoods:onionring
+        amount: 2

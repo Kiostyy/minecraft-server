@@ -1,0 +1,174 @@
+{
+  "translation": {
+    "gui.ripe": "Ripe",
+    "gui.statistic": "Your statistics",
+    "game.crop_info": "{#E7BB91}%gui.time% %time%\n %litecore_line[size=10,s1={#6CDE55}§m ,s2=§8§m ,l={#6CDE55}🌿,r={#6CDE55}🌿 @mod@,data=fertilizer]%  %plant_name%  %litecore_line[size=10,s1={#5B9EE7}§m ,s2=§8§m ,l={#5B9EE7}🌢 ,r= {#5B9EE7}🌢,data=water]%",
+    "gui.server_maxWeight": "Server best size",
+    "gui.back": "Back",
+    "gui.level": "Level",
+    "gui.items": "Items",
+    "gui.sell_action": "{#FFB47E}• L-Click §7- sell",
+    "gui.level_low": "Your farming skill is low",
+    "gui.put_item": "Put item here",
+    "gui.on": "§aON",
+    "gui.youHere": "You are here!",
+    "gui.sell": "Sell",
+    "gui.off": "§cOFF",
+    "gui.settings": "Settings",
+    "gui.time": "Time",
+    "gui.harvest": "Harvested",
+    "gui.chance": "Chance",
+    "gui.spawn_entity_from_egg": "Spawn entity from egg",
+    "gui.biomes": "Biomes",
+    "gui.sellMessage": "You sold items for the amount: §6%money%",
+    "gui.no_permission": "No permission",
+    "gui.amount": "Amount",
+    "gui.setStatDesc": "{#FFB47E}• L-Click §7- set value\n{#FFB47E}• R-Click §7- set chance\n{#FFB47E}• Q §7- reset",
+    "gui.watering": "Watering",
+    "gui.move_to_inventory": "Move items to inventory",
+    "gui.temperature": "Temperature",
+    "gui.category": "Category",
+    "game.info_lore": "§7Harvested: {#FFB47E}%player_name%\n§8%year%/%month%/%day%",
+    "gui.default": "Default",
+    "gui.addCountDesc": "{#FFB47E}• L-Click/R-Click §7- increase/decrease\n{#FFB47E}• Shift §7- x10\n{#FFB47E}• Q §7- write value",
+    "gui.plant": "Plant",
+    "gui.weight_info": "§7Weight: %weight% kg",
+    "gui.add": "Add",
+    "gui.limit": "Limit",
+    "gui.group": "Group",
+    "gui.exp": "Experience",
+    "gui.delete": "Delete",
+    "gui.remove": "{#FFB47E}• R-Click §7- remove",
+    "gui.region": "Add region",
+    "gui.weight": "Weight",
+    "gui.page": "Page",
+    "gui.catalog": "Farming Catalog",
+    "gui.auto_spawn_entity": "Auto spawn entity",
+    "gui.action_bar": "Action bar",
+    "gui.name": "Name",
+    "gui.acceptDelete": "Confirm Deletion",
+    "gui.enterChat": "Enter value in chat",
+    "gui.mod": "Mod",
+    "gui.price": "Price",
+    "gui.sprout_type": "Sprout type",
+    "gui.fertilizer": "Fertilizer",
+    "gui.edit": "{#FFB47E}• L-Click §7- edit",
+    "gui.acceptedValue": "Values successfully accepted",
+    "chat.cfgUpdateErr": "Error updating config",
+    "gui.harvest_click": "R-Click harvest",
+    "gui.invalidValue": "Invalid data entered",
+    "gui.farmland": "Farmland",
+    "gui.newItemMessage": "§7You have discovered a new item [%item%§7]",
+    "chat.cfgUpdate": "Config successfully updated",
+    "gui.limit_msg": "You can plant only %limit_amount% times of %plant_name%",
+    "gui.drop": "Drop",
+    "gui.example": "Example",
+    "gui.auto_set_block": "Auto set block",
+    "gui.maxWeight": "Maximum size",
+    "gui.add_desc": "Additional Description",
+    "gui.next": "Next",
+    "gui.server_harvest": "Server harvested record"
+  },
+  "guis": {
+    "shop": {
+      "sound": "ENTITY_EXPERIENCE_ORB_PICKUP:0.5:2",
+      "title": "%gui.sell%: %amount%",
+      "icons": [
+        {
+          "id": "1",
+          "displayName": "§f%amount%",
+          "material": "COMPOSTER",
+          "lore": [
+            "%gui.sell_action%"
+          ],
+          "pattern": "sell"
+        }
+      ],
+      "map": [
+        "0 0 0 0 0 0 0 0 0",
+        "0 0 0 0 0 0 0 0 0",
+        "0 0 0 0 1 0 0 0 0"
+      ]
+    },
+    "catalog": {
+      "sound": "ENTITY_EXPERIENCE_ORB_PICKUP:0.5:2",
+      "title": "%gui.catalog%: %player_name%",
+      "icons": [
+        {
+          "id": "2",
+          "displayName": "{#41FFE9}%gui.statistic%",
+          "lore": [
+            "{#FFB47E}%gui.level%: %rank%",
+            "{#FFB47E}%gui.exp%: {#E1A5E9}%exp%{#FFB47E}/{#E1A5E9}%need_exp%",
+            "{#FFB47E}%gui.harvest%: {#0BFF9F}%harvest%"
+          ],
+          "pattern": "head"
+        },
+        {
+          "id": "3",
+          "lore": [
+            "{#FFB47E}%gui.level%: %level%"
+          ],
+          "pattern": "category"
+        },
+        {
+          "id": "0",
+          "displayName": " ",
+          "material": "ORANGE_STAINED_GLASS_PANE"
+        }
+      ],
+      "map": [
+        "0 0 0 0 2 0 0 0 0",
+        "0 3 3 3 3 3 3 3 0",
+        "0 0 0 0 0 0 0 0 0"
+      ]
+    },
+    "plant_catalog": {
+      "sound": "ENTITY_EXPERIENCE_ORB_PICKUP:0.5:2",
+      "title": "%gui.catalog%: %player_name% %page%",
+      "icons": [
+        {
+          "id": "1",
+          "displayName": "§f%gui.back%",
+          "material": "BLACK_STAINED_GLASS_PANE",
+          "pattern": "back"
+        },
+        {
+          "id": "3",
+          "displayName": "§f%gui.next%",
+          "material": "BLACK_STAINED_GLASS_PANE",
+          "pattern": "next"
+        },
+        {
+          "id": "2",
+          "displayName": "§f%name%",
+          "lore": [
+            "{#FFB47E}%gui.level%: %level%",
+            "{#FFB47E}%gui.harvest%: {#E1A5E9}%total_harvest%",
+            "{#FFB47E}%gui.chance%: {#E1A5E9}%chance%%",
+            "{#FFB47E}%gui.exp%: {#E1A5E9}%exp%",
+            "{#FFB47E}%gui.price%: {#E1A5E9}%price%",
+            "{#FFB47E}%gui.maxWeight%: {#E1A5E9}%max_size%kg",
+            "\n{#FFB47E}• %gui.server_maxWeight%: {#E1A5E9}%server_max_size%kg {#93cfec}%best_player_name%",
+            "{#FFB47E}• %gui.server_harvest%: {#E1A5E9}%server_amount% {#93cfec}%amount_player_name%"
+          ],
+          "pattern": "item",
+          "data": {
+            "unknown": "§8???",
+            "unknown_lore": "{#93cfec}%gui.level%: %level%"
+          }
+        },
+        {
+          "id": "0",
+          "displayName": " ",
+          "material": "ORANGE_STAINED_GLASS_PANE"
+        }
+      ],
+      "map": [
+        "0 0 0 0 0 0 0 0 0",
+        "0 0 2 2 2 2 2 0 0",
+        "1 0 0 0 0 0 0 0 3"
+      ]
+    }
+  }
+}

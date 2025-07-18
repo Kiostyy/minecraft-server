@@ -1,0 +1,32 @@
+info:
+  namespace: customfoods
+items:
+  popcorn:
+    enabled: true
+    display_name: Popcorn
+    lore:
+      - "&7&oA delicious snack made from popped corn."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/popcorn
+    consumable:
+      nutrition: 6
+      saturation: 6
+      can_always_eat: true
+
+# Recipe Section
+recipes:
+  cooking:
+    popcorn:
+      ingredient:
+        item: customcrops:corn
+      machines:
+        - FURNACE
+        - SMOKER
+      exp: 1
+      cook_time: 400
+      result:
+        item: customfoods:popcorn
+        amount: 1

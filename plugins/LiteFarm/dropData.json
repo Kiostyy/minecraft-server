@@ -1,0 +1,316 @@
+{
+  "biomesIds": [
+    {
+      "iconBase64": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAALRGF0YVZlcnNpb250AAJpZHQABWNvdW50dAAKY29tcG9uZW50c3QADnNjaGVtYV92ZXJzaW9udXEAfgAGAAAABnQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAABDldAAVbWluZWNyYWZ0OmdyYXNzX2Jsb2Nrc3EAfgAQAAAAAXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAAAXQAFW1pbmVjcmFmdDpjdXN0b21fbmFtZXQAdHtleHRyYTpbe2JvbGQ6MGIsY29sb3I6IiM5M0NGRUMiLGl0YWxpYzowYixvYmZ1c2NhdGVkOjBiLHN0cmlrZXRocm91Z2g6MGIsdGV4dDoiQ2F0ZWdvcnlfMCIsdW5kZXJsaW5lZDowYn1dLHRleHQ6IiJ9eABxAH4AFA\u003d\u003d",
+      "biomesList": [],
+      "regionsList": [],
+      "plants": [
+        1004,
+        1005,
+        1006,
+        1007,
+        1008
+      ]
+    }
+  ],
+  "fertilizers": [],
+  "plants": [
+    {
+      "id": 1004,
+      "level_required": 0,
+      "farmland": "FARMLAND",
+      "sproutType": "BEETROOTS",
+      "customSprouts": [
+        "customcrops:tomato_stage_1",
+        "customcrops:tomato_stage_2",
+        "customcrops:tomato_stage_3",
+        "customcrops:tomato_stage_4"
+      ],
+      "seed_item": {
+        "data": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAALRGF0YVZlcnNpb250AAJpZHQABWNvdW50dAAKY29tcG9uZW50c3QADnNjaGVtYV92ZXJzaW9udXEAfgAGAAAABnQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAABDldAAPbWluZWNyYWZ0OnBhcGVyc3EAfgAQAAAAAXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAABXQADm1pbmVjcmFmdDpsb3JldABTW3tjb2xvcjoiZ3JheSIsaXRhbGljOjFiLHRleHQ6IkEganVpY3kgcmVkIGZydWl0LCBwZXJmZWN0IGZvciBzYWxhZHMgYW5kIHNhdWNlcy4ifV10ABVtaW5lY3JhZnQ6Y3VzdG9tX25hbWV0ACx7Y29sb3I6IndoaXRlIixpdGFsaWM6MGIsdGV4dDoiVG9tYXRvIFNlZWQifXQAG21pbmVjcmFmdDpjdXN0b21fbW9kZWxfZGF0YXQAE3tmbG9hdHM6WzEwMDEyLjBmXX10ABVtaW5lY3JhZnQ6Y3VzdG9tX2RhdGF0ADh7aXRlbXNhZGRlcjp7aWQ6InRvbWF0b19zZWVkcyIsbmFtZXNwYWNlOiJjdXN0b21jcm9wcyJ9fXQAE21pbmVjcmFmdDppdGVtX25hbWV0ACx7Y29sb3I6IndoaXRlIixpdGFsaWM6MGIsdGV4dDoiVG9tYXRvIFNlZWQifXgAcQB+ABQ\u003d",
+        "amount": "1"
+      },
+      "displayName": "§fTomato",
+      "rightClickHarvest": false,
+      "permissions": [],
+      "harvestTime": 600,
+      "water": -1,
+      "water_particle": "WATER_SPLASH",
+      "limit": 0,
+      "limits": {},
+      "commands": [],
+      "dropsItem": [
+        {
+          "id": 1751375335415,
+          "level_required": 0,
+          "displayName": "{#E81212}Tomato",
+          "chance": 1.0,
+          "giveExp": 0,
+          "add_description": false,
+          "item": {
+            "data": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAALRGF0YVZlcnNpb250AAJpZHQABWNvdW50dAAKY29tcG9uZW50c3QADnNjaGVtYV92ZXJzaW9udXEAfgAGAAAABnQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAABDldAAPbWluZWNyYWZ0OmFwcGxlc3EAfgAQAAAAAXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAAB3QADm1pbmVjcmFmdDpmb29kdAAde251dHJpdGlvbjoxLHNhdHVyYXRpb246MS4wZn10AA5taW5lY3JhZnQ6bG9yZXQAU1t7Y29sb3I6ImdyYXkiLGl0YWxpYzoxYix0ZXh0OiJBIGp1aWN5IHJlZCBmcnVpdCwgcGVyZmVjdCBmb3Igc2FsYWRzIGFuZCBzYXVjZXMuIn1ddAAUbWluZWNyYWZ0OmNvbnN1bWFibGV0ABZ7Y29uc3VtZV9zZWNvbmRzOjIuMGZ9dAAVbWluZWNyYWZ0OmN1c3RvbV9uYW1ldAAne2NvbG9yOiJ3aGl0ZSIsaXRhbGljOjBiLHRleHQ6IlRvbWF0byJ9dAAbbWluZWNyYWZ0OmN1c3RvbV9tb2RlbF9kYXRhdAATe2Zsb2F0czpbMTAwMTUuMGZdfXQAFW1pbmVjcmFmdDpjdXN0b21fZGF0YXQAMntpdGVtc2FkZGVyOntpZDoidG9tYXRvIixuYW1lc3BhY2U6ImN1c3RvbWNyb3BzIn19dAATbWluZWNyYWZ0Oml0ZW1fbmFtZXQAJ3tjb2xvcjoid2hpdGUiLGl0YWxpYzowYix0ZXh0OiJUb21hdG8ifXgAcQB+ABQ\u003d",
+            "amount": "1"
+          },
+          "price": 1.0,
+          "stackSize": "2-4",
+          "randomDuration": false
+        },
+        {
+          "id": 1751894253423,
+          "level_required": 0,
+          "displayName": "§fTomato Seed",
+          "chance": 1.0,
+          "giveExp": 0,
+          "add_description": false,
+          "item": {
+            "data": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAALRGF0YVZlcnNpb250AAJpZHQABWNvdW50dAAKY29tcG9uZW50c3QADnNjaGVtYV92ZXJzaW9udXEAfgAGAAAABnQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAABDldAAPbWluZWNyYWZ0OnBhcGVyc3EAfgAQAAAAAXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAABXQADm1pbmVjcmFmdDpsb3JldABTW3tjb2xvcjoiZ3JheSIsaXRhbGljOjFiLHRleHQ6IkEganVpY3kgcmVkIGZydWl0LCBwZXJmZWN0IGZvciBzYWxhZHMgYW5kIHNhdWNlcy4ifV10ABVtaW5lY3JhZnQ6Y3VzdG9tX25hbWV0ACx7Y29sb3I6IndoaXRlIixpdGFsaWM6MGIsdGV4dDoiVG9tYXRvIFNlZWQifXQAG21pbmVjcmFmdDpjdXN0b21fbW9kZWxfZGF0YXQAE3tmbG9hdHM6WzEwMDEyLjBmXX10ABVtaW5lY3JhZnQ6Y3VzdG9tX2RhdGF0ADh7aXRlbXNhZGRlcjp7aWQ6InRvbWF0b19zZWVkcyIsbmFtZXNwYWNlOiJjdXN0b21jcm9wcyJ9fXQAE21pbmVjcmFmdDppdGVtX25hbWV0ACx7Y29sb3I6IndoaXRlIixpdGFsaWM6MGIsdGV4dDoiVG9tYXRvIFNlZWQifXgAcQB+ABQ\u003d",
+            "amount": "1"
+          },
+          "price": 0.0,
+          "stackSize": "1-2",
+          "randomDuration": false
+        }
+      ],
+      "fertilizer": []
+    },
+    {
+      "id": 1005,
+      "level_required": 0,
+      "farmland": "FARMLAND",
+      "sproutType": "POTATOES",
+      "customSprouts": [
+        "customcrops:onion_stage_1",
+        "customcrops:onion_stage_2",
+        "customcrops:onion_stage_3",
+        "customcrops:onion_stage_4"
+      ],
+      "seed_item": {
+        "data": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAALRGF0YVZlcnNpb250AAJpZHQABWNvdW50dAAKY29tcG9uZW50c3QADnNjaGVtYV92ZXJzaW9udXEAfgAGAAAABnQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAABDldAAPbWluZWNyYWZ0OnBhcGVyc3EAfgAQAAAAAXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAABXQADm1pbmVjcmFmdDpsb3JldABMW3tjb2xvcjoiZ3JheSIsaXRhbGljOjFiLHRleHQ6IkEgcHVuZ2VudCBidWxiLCBlc3NlbnRpYWwgZm9yIG1hbnkgZGlzaGVzLiJ9XXQAFW1pbmVjcmFmdDpjdXN0b21fbmFtZXQALHtjb2xvcjoid2hpdGUiLGl0YWxpYzowYix0ZXh0OiJPbmlvbiBTZWVkcyJ9dAAbbWluZWNyYWZ0OmN1c3RvbV9tb2RlbF9kYXRhdAATe2Zsb2F0czpbMTAwMjkuMGZdfXQAFW1pbmVjcmFmdDpjdXN0b21fZGF0YXQAN3tpdGVtc2FkZGVyOntpZDoib25pb25fc2VlZHMiLG5hbWVzcGFjZToiY3VzdG9tY3JvcHMifX10ABNtaW5lY3JhZnQ6aXRlbV9uYW1ldAAse2NvbG9yOiJ3aGl0ZSIsaXRhbGljOjBiLHRleHQ6Ik9uaW9uIFNlZWRzIn14AHEAfgAU",
+        "amount": "1"
+      },
+      "displayName": "§fOnion",
+      "rightClickHarvest": false,
+      "permissions": [],
+      "harvestTime": 900,
+      "water": -1,
+      "water_particle": "WATER_SPLASH",
+      "limit": 0,
+      "limits": {},
+      "commands": [],
+      "dropsItem": [
+        {
+          "id": 1751985193302,
+          "level_required": 0,
+          "displayName": "§fOnion",
+          "chance": 1.0,
+          "giveExp": 0,
+          "add_description": false,
+          "item": {
+            "data": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAALRGF0YVZlcnNpb250AAJpZHQABWNvdW50dAAKY29tcG9uZW50c3QADnNjaGVtYV92ZXJzaW9udXEAfgAGAAAABnQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAABDldAAPbWluZWNyYWZ0OmFwcGxlc3EAfgAQAAAAAXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAAB3QADm1pbmVjcmFmdDpmb29kdAAde251dHJpdGlvbjoxLHNhdHVyYXRpb246MS4wZn10AA5taW5lY3JhZnQ6bG9yZXQAUFt7Y29sb3I6ImdyYXkiLGl0YWxpYzoxYix0ZXh0OiJBIHB1bmdlbnQgYnVsYiB2ZWdldGFibGUsIHVzZWQgaW4gbWFueSBkaXNoZXMuIn1ddAAUbWluZWNyYWZ0OmNvbnN1bWFibGV0ABZ7Y29uc3VtZV9zZWNvbmRzOjIuMGZ9dAAVbWluZWNyYWZ0OmN1c3RvbV9uYW1ldAAme2NvbG9yOiJ3aGl0ZSIsaXRhbGljOjBiLHRleHQ6Ik9uaW9uIn10ABttaW5lY3JhZnQ6Y3VzdG9tX21vZGVsX2RhdGF0ABN7ZmxvYXRzOlsxMDAwMS4wZl19dAAVbWluZWNyYWZ0OmN1c3RvbV9kYXRhdAAxe2l0ZW1zYWRkZXI6e2lkOiJvbmlvbiIsbmFtZXNwYWNlOiJjdXN0b21jcm9wcyJ9fXQAE21pbmVjcmFmdDppdGVtX25hbWV0ACZ7Y29sb3I6IndoaXRlIixpdGFsaWM6MGIsdGV4dDoiT25pb24ifXgAcQB+ABQ\u003d",
+            "amount": "1"
+          },
+          "price": 0.0,
+          "stackSize": "2-4",
+          "randomDuration": false
+        },
+        {
+          "id": 1751986579253,
+          "level_required": 0,
+          "displayName": "§fOnion Seeds",
+          "chance": 1.0,
+          "giveExp": 0,
+          "add_description": false,
+          "item": {
+            "data": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAALRGF0YVZlcnNpb250AAJpZHQABWNvdW50dAAKY29tcG9uZW50c3QADnNjaGVtYV92ZXJzaW9udXEAfgAGAAAABnQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAABDldAAPbWluZWNyYWZ0OnBhcGVyc3EAfgAQAAAAAXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAABXQADm1pbmVjcmFmdDpsb3JldABMW3tjb2xvcjoiZ3JheSIsaXRhbGljOjFiLHRleHQ6IkEgcHVuZ2VudCBidWxiLCBlc3NlbnRpYWwgZm9yIG1hbnkgZGlzaGVzLiJ9XXQAFW1pbmVjcmFmdDpjdXN0b21fbmFtZXQALHtjb2xvcjoid2hpdGUiLGl0YWxpYzowYix0ZXh0OiJPbmlvbiBTZWVkcyJ9dAAbbWluZWNyYWZ0OmN1c3RvbV9tb2RlbF9kYXRhdAATe2Zsb2F0czpbMTAwMjkuMGZdfXQAFW1pbmVjcmFmdDpjdXN0b21fZGF0YXQAN3tpdGVtc2FkZGVyOntpZDoib25pb25fc2VlZHMiLG5hbWVzcGFjZToiY3VzdG9tY3JvcHMifX10ABNtaW5lY3JhZnQ6aXRlbV9uYW1ldAAse2NvbG9yOiJ3aGl0ZSIsaXRhbGljOjBiLHRleHQ6Ik9uaW9uIFNlZWRzIn14AHEAfgAU",
+            "amount": "1"
+          },
+          "price": 0.0,
+          "stackSize": "1-2",
+          "randomDuration": false
+        }
+      ],
+      "fertilizer": []
+    },
+    {
+      "id": 1006,
+      "level_required": 0,
+      "farmland": "FARMLAND",
+      "sproutType": "POTATOES",
+      "customSprouts": [
+        "customcrops:pepper_stage_1",
+        "customcrops:pepper_stage_2",
+        "customcrops:pepper_stage_3",
+        "customcrops:pepper_stage_4"
+      ],
+      "seed_item": {
+        "data": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAALRGF0YVZlcnNpb250AAJpZHQABWNvdW50dAAKY29tcG9uZW50c3QADnNjaGVtYV92ZXJzaW9udXEAfgAGAAAABnQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAABDldAAPbWluZWNyYWZ0OnBhcGVyc3EAfgAQAAAAAXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAABXQADm1pbmVjcmFmdDpsb3JldABEW3tjb2xvcjoiZ3JheSIsaXRhbGljOjFiLHRleHQ6IlBsYW50IHRoZXNlIHNlZWRzIHRvIGdyb3cgcGVwcGVycy4ifV10ABVtaW5lY3JhZnQ6Y3VzdG9tX25hbWV0AC17Y29sb3I6IndoaXRlIixpdGFsaWM6MGIsdGV4dDoiUGVwcGVyIFNlZWRzIn10ABttaW5lY3JhZnQ6Y3VzdG9tX21vZGVsX2RhdGF0ABN7ZmxvYXRzOlsxMDA0MC4wZl19dAAVbWluZWNyYWZ0OmN1c3RvbV9kYXRhdAA4e2l0ZW1zYWRkZXI6e2lkOiJwZXBwZXJfc2VlZHMiLG5hbWVzcGFjZToiY3VzdG9tY3JvcHMifX10ABNtaW5lY3JhZnQ6aXRlbV9uYW1ldAAte2NvbG9yOiJ3aGl0ZSIsaXRhbGljOjBiLHRleHQ6IlBlcHBlciBTZWVkcyJ9eABxAH4AFA\u003d\u003d",
+        "amount": "1"
+      },
+      "displayName": "§fPepper",
+      "rightClickHarvest": false,
+      "permissions": [],
+      "harvestTime": 1200,
+      "water": -1,
+      "water_particle": "WATER_SPLASH",
+      "limit": 0,
+      "limits": {},
+      "commands": [],
+      "dropsItem": [
+        {
+          "id": 1752169870329,
+          "level_required": 0,
+          "displayName": "§fPepper",
+          "chance": 1.0,
+          "giveExp": 0,
+          "add_description": false,
+          "item": {
+            "data": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAALRGF0YVZlcnNpb250AAJpZHQABWNvdW50dAAKY29tcG9uZW50c3QADnNjaGVtYV92ZXJzaW9udXEAfgAGAAAABnQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAABDldAAPbWluZWNyYWZ0OmFwcGxlc3EAfgAQAAAAAXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAAB3QADm1pbmVjcmFmdDpmb29kdAAde251dHJpdGlvbjoxLHNhdHVyYXRpb246MS4wZn10AA5taW5lY3JhZnQ6bG9yZXQATFt7Y29sb3I6ImdyYXkiLGl0YWxpYzoxYix0ZXh0OiJBIHNwaWN5IGZydWl0LCB1c2VkIHRvIGFkZCBoZWF0IHRvIGRpc2hlcy4ifV10ABRtaW5lY3JhZnQ6Y29uc3VtYWJsZXQAFntjb25zdW1lX3NlY29uZHM6Mi4wZn10ABVtaW5lY3JhZnQ6Y3VzdG9tX25hbWV0ACd7Y29sb3I6IndoaXRlIixpdGFsaWM6MGIsdGV4dDoiUGVwcGVyIn10ABttaW5lY3JhZnQ6Y3VzdG9tX21vZGVsX2RhdGF0ABN7ZmxvYXRzOlsxMDAxMS4wZl19dAAVbWluZWNyYWZ0OmN1c3RvbV9kYXRhdAAye2l0ZW1zYWRkZXI6e2lkOiJwZXBwZXIiLG5hbWVzcGFjZToiY3VzdG9tY3JvcHMifX10ABNtaW5lY3JhZnQ6aXRlbV9uYW1ldAAne2NvbG9yOiJ3aGl0ZSIsaXRhbGljOjBiLHRleHQ6IlBlcHBlciJ9eABxAH4AFA\u003d\u003d",
+            "amount": "1"
+          },
+          "price": 0.0,
+          "stackSize": "1-3",
+          "randomDuration": false
+        },
+        {
+          "id": 1752169895534,
+          "level_required": 0,
+          "displayName": "§fPepper Seeds",
+          "chance": 1.0,
+          "giveExp": 0,
+          "add_description": false,
+          "item": {
+            "data": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAALRGF0YVZlcnNpb250AAJpZHQABWNvdW50dAAKY29tcG9uZW50c3QADnNjaGVtYV92ZXJzaW9udXEAfgAGAAAABnQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAABDldAAPbWluZWNyYWZ0OnBhcGVyc3EAfgAQAAAAAXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAABXQADm1pbmVjcmFmdDpsb3JldABEW3tjb2xvcjoiZ3JheSIsaXRhbGljOjFiLHRleHQ6IlBsYW50IHRoZXNlIHNlZWRzIHRvIGdyb3cgcGVwcGVycy4ifV10ABVtaW5lY3JhZnQ6Y3VzdG9tX25hbWV0AC17Y29sb3I6IndoaXRlIixpdGFsaWM6MGIsdGV4dDoiUGVwcGVyIFNlZWRzIn10ABttaW5lY3JhZnQ6Y3VzdG9tX21vZGVsX2RhdGF0ABN7ZmxvYXRzOlsxMDA0MC4wZl19dAAVbWluZWNyYWZ0OmN1c3RvbV9kYXRhdAA4e2l0ZW1zYWRkZXI6e2lkOiJwZXBwZXJfc2VlZHMiLG5hbWVzcGFjZToiY3VzdG9tY3JvcHMifX10ABNtaW5lY3JhZnQ6aXRlbV9uYW1ldAAte2NvbG9yOiJ3aGl0ZSIsaXRhbGljOjBiLHRleHQ6IlBlcHBlciBTZWVkcyJ9eABxAH4AFA\u003d\u003d",
+            "amount": "1"
+          },
+          "price": 0.0,
+          "stackSize": "1-2",
+          "randomDuration": false
+        }
+      ],
+      "fertilizer": []
+    },
+    {
+      "id": 1007,
+      "level_required": 0,
+      "farmland": "FARMLAND",
+      "sproutType": "POTATOES",
+      "customSprouts": [
+        "customcrops:corn_stage_1",
+        "customcrops:corn_stage_2",
+        "customcrops:corn_stage_3",
+        "customcrops:corn_stage_4"
+      ],
+      "seed_item": {
+        "data": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAALRGF0YVZlcnNpb250AAJpZHQABWNvdW50dAAKY29tcG9uZW50c3QADnNjaGVtYV92ZXJzaW9udXEAfgAGAAAABnQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAABDldAAPbWluZWNyYWZ0OnBhcGVyc3EAfgAQAAAAAXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAABXQADm1pbmVjcmFmdDpsb3JldABBW3tjb2xvcjoiZ3JheSIsaXRhbGljOjFiLHRleHQ6IlBsYW50IHRoZXNlIHNlZWRzIHRvIGdyb3cgY29ybi4ifV10ABVtaW5lY3JhZnQ6Y3VzdG9tX25hbWV0ACt7Y29sb3I6IndoaXRlIixpdGFsaWM6MGIsdGV4dDoiQ29ybiBTZWVkcyJ9dAAbbWluZWNyYWZ0OmN1c3RvbV9tb2RlbF9kYXRhdAATe2Zsb2F0czpbMTAwNDUuMGZdfXQAFW1pbmVjcmFmdDpjdXN0b21fZGF0YXQANntpdGVtc2FkZGVyOntpZDoiY29ybl9zZWVkcyIsbmFtZXNwYWNlOiJjdXN0b21jcm9wcyJ9fXQAE21pbmVjcmFmdDppdGVtX25hbWV0ACt7Y29sb3I6IndoaXRlIixpdGFsaWM6MGIsdGV4dDoiQ29ybiBTZWVkcyJ9eABxAH4AFA\u003d\u003d",
+        "amount": "1"
+      },
+      "displayName": "§fCorn",
+      "rightClickHarvest": false,
+      "permissions": [],
+      "harvestTime": 1800,
+      "water": -1,
+      "water_particle": "WATER_SPLASH",
+      "water_item": {
+        "amount": "1",
+        "material": "WATER_BUCKET"
+      },
+      "limit": 0,
+      "limits": {},
+      "commands": [],
+      "dropsItem": [
+        {
+          "id": 1752170119106,
+          "level_required": 0,
+          "displayName": "§fCorn",
+          "chance": 1.0,
+          "giveExp": 0,
+          "add_description": false,
+          "item": {
+            "data": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAALRGF0YVZlcnNpb250AAJpZHQABWNvdW50dAAKY29tcG9uZW50c3QADnNjaGVtYV92ZXJzaW9udXEAfgAGAAAABnQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAABDldAAPbWluZWNyYWZ0OmFwcGxlc3EAfgAQAAAAAXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAAB3QADm1pbmVjcmFmdDpmb29kdAAde251dHJpdGlvbjoxLHNhdHVyYXRpb246MS4wZn10AA5taW5lY3JhZnQ6bG9yZXQAV1t7Y29sb3I6ImdyYXkiLGl0YWxpYzoxYix0ZXh0OiJBIHRhbGwgZ3Jhc3MgcGxhbnQsIGN1bHRpdmF0ZWQgZm9yIGl0cyBzd2VldCBrZXJuZWxzLiJ9XXQAFG1pbmVjcmFmdDpjb25zdW1hYmxldAAWe2NvbnN1bWVfc2Vjb25kczoyLjBmfXQAFW1pbmVjcmFmdDpjdXN0b21fbmFtZXQAJXtjb2xvcjoid2hpdGUiLGl0YWxpYzowYix0ZXh0OiJDb3JuIn10ABttaW5lY3JhZnQ6Y3VzdG9tX21vZGVsX2RhdGF0ABN7ZmxvYXRzOlsxMDAwMi4wZl19dAAVbWluZWNyYWZ0OmN1c3RvbV9kYXRhdAAwe2l0ZW1zYWRkZXI6e2lkOiJjb3JuIixuYW1lc3BhY2U6ImN1c3RvbWNyb3BzIn19dAATbWluZWNyYWZ0Oml0ZW1fbmFtZXQAJXtjb2xvcjoid2hpdGUiLGl0YWxpYzowYix0ZXh0OiJDb3JuIn14AHEAfgAU",
+            "amount": "1"
+          },
+          "price": 0.0,
+          "stackSize": "1-2",
+          "randomDuration": false
+        },
+        {
+          "id": 1752170126814,
+          "level_required": 0,
+          "displayName": "§fCorn Seeds",
+          "chance": 1.0,
+          "giveExp": 0,
+          "add_description": false,
+          "item": {
+            "data": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAALRGF0YVZlcnNpb250AAJpZHQABWNvdW50dAAKY29tcG9uZW50c3QADnNjaGVtYV92ZXJzaW9udXEAfgAGAAAABnQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAABDldAAPbWluZWNyYWZ0OnBhcGVyc3EAfgAQAAAAAXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAABXQADm1pbmVjcmFmdDpsb3JldABBW3tjb2xvcjoiZ3JheSIsaXRhbGljOjFiLHRleHQ6IlBsYW50IHRoZXNlIHNlZWRzIHRvIGdyb3cgY29ybi4ifV10ABVtaW5lY3JhZnQ6Y3VzdG9tX25hbWV0ACt7Y29sb3I6IndoaXRlIixpdGFsaWM6MGIsdGV4dDoiQ29ybiBTZWVkcyJ9dAAbbWluZWNyYWZ0OmN1c3RvbV9tb2RlbF9kYXRhdAATe2Zsb2F0czpbMTAwNDUuMGZdfXQAFW1pbmVjcmFmdDpjdXN0b21fZGF0YXQANntpdGVtc2FkZGVyOntpZDoiY29ybl9zZWVkcyIsbmFtZXNwYWNlOiJjdXN0b21jcm9wcyJ9fXQAE21pbmVjcmFmdDppdGVtX25hbWV0ACt7Y29sb3I6IndoaXRlIixpdGFsaWM6MGIsdGV4dDoiQ29ybiBTZWVkcyJ9eABxAH4AFA\u003d\u003d",
+            "amount": "1"
+          },
+          "price": 0.0,
+          "stackSize": "1-2",
+          "randomDuration": false
+        }
+      ],
+      "fertilizer": []
+    },
+    {
+      "id": 1008,
+      "level_required": 0,
+      "farmland": "FARMLAND",
+      "sproutType": "POTATOES",
+      "customSprouts": [
+        "customcrops:lettuce_stage_1",
+        "customcrops:lettuce_stage_2",
+        "customcrops:lettuce_stage_3",
+        "customcrops:lettuce_stage_4"],
+      "seed_item": {
+        "data": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAALRGF0YVZlcnNpb250AAJpZHQABWNvdW50dAAKY29tcG9uZW50c3QADnNjaGVtYV92ZXJzaW9udXEAfgAGAAAABnQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAABDldAAPbWluZWNyYWZ0OnBhcGVyc3EAfgAQAAAAAXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAABXQADm1pbmVjcmFmdDpsb3JldABEW3tjb2xvcjoiZ3JheSIsaXRhbGljOjFiLHRleHQ6IlBsYW50IHRoZXNlIHNlZWRzIHRvIGdyb3cgbGV0dHVjZS4ifV10ABVtaW5lY3JhZnQ6Y3VzdG9tX25hbWV0AC57Y29sb3I6IndoaXRlIixpdGFsaWM6MGIsdGV4dDoiTGV0dHVjZSBTZWVkcyJ9dAAbbWluZWNyYWZ0OmN1c3RvbV9tb2RlbF9kYXRhdAATe2Zsb2F0czpbMTAwMzUuMGZdfXQAFW1pbmVjcmFmdDpjdXN0b21fZGF0YXQAOXtpdGVtc2FkZGVyOntpZDoibGV0dHVjZV9zZWVkcyIsbmFtZXNwYWNlOiJjdXN0b21jcm9wcyJ9fXQAE21pbmVjcmFmdDppdGVtX25hbWV0AC57Y29sb3I6IndoaXRlIixpdGFsaWM6MGIsdGV4dDoiTGV0dHVjZSBTZWVkcyJ9eABxAH4AFA\u003d\u003d",
+        "amount": "1"
+      },
+      "displayName": "§fLettuce",
+      "rightClickHarvest": false,
+      "permissions": [],
+      "harvestTime": 900,
+      "water": -1,
+      "water_particle": "WATER_SPLASH",
+      "water_item": {
+        "amount": "1",
+        "material": "WATER_BUCKET"
+      },
+      "limit": 0,
+      "limits": {},
+      "commands": [],
+      "dropsItem": [
+        {
+          "id": 1752170208978,
+          "level_required": 0,
+          "displayName": "§fLettuce",
+          "chance": 1.0,
+          "giveExp": 0,
+          "add_description": false,
+          "item": {
+            "data": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAALRGF0YVZlcnNpb250AAJpZHQABWNvdW50dAAKY29tcG9uZW50c3QADnNjaGVtYV92ZXJzaW9udXEAfgAGAAAABnQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAABDldAAPbWluZWNyYWZ0OmFwcGxlc3EAfgAQAAAAAXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAAB3QADm1pbmVjcmFmdDpmb29kdAAde251dHJpdGlvbjoxLHNhdHVyYXRpb246MS4wZn10AA5taW5lY3JhZnQ6bG9yZXQAWFt7Y29sb3I6ImdyYXkiLGl0YWxpYzoxYix0ZXh0OiJBIGxlYWZ5IGdyZWVuIHZlZ2V0YWJsZSwgZ3JlYXQgZm9yIHNhbGFkcyBhbmQgY29va2luZy4ifV10ABRtaW5lY3JhZnQ6Y29uc3VtYWJsZXQAFntjb25zdW1lX3NlY29uZHM6Mi4wZn10ABVtaW5lY3JhZnQ6Y3VzdG9tX25hbWV0ACh7Y29sb3I6IndoaXRlIixpdGFsaWM6MGIsdGV4dDoiTGV0dHVjZSJ9dAAbbWluZWNyYWZ0OmN1c3RvbV9tb2RlbF9kYXRhdAATe2Zsb2F0czpbMTAwMTYuMGZdfXQAFW1pbmVjcmFmdDpjdXN0b21fZGF0YXQAM3tpdGVtc2FkZGVyOntpZDoibGV0dHVjZSIsbmFtZXNwYWNlOiJjdXN0b21jcm9wcyJ9fXQAE21pbmVjcmFmdDppdGVtX25hbWV0ACh7Y29sb3I6IndoaXRlIixpdGFsaWM6MGIsdGV4dDoiTGV0dHVjZSJ9eABxAH4AFA\u003d\u003d",
+            "amount": "1"
+          },
+          "price": 0.0,
+          "stackSize": "2-5",
+          "randomDuration": false
+        },
+        {
+          "id": 1752170210009,
+          "level_required": 0,
+          "displayName": "§fLettuce Seeds",
+          "chance": 1.0,
+          "giveExp": 0,
+          "add_description": false,
+          "item": {
+            "data": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAALRGF0YVZlcnNpb250AAJpZHQABWNvdW50dAAKY29tcG9uZW50c3QADnNjaGVtYV92ZXJzaW9udXEAfgAGAAAABnQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAABDldAAPbWluZWNyYWZ0OnBhcGVyc3EAfgAQAAAAAXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAABXQADm1pbmVjcmFmdDpsb3JldABEW3tjb2xvcjoiZ3JheSIsaXRhbGljOjFiLHRleHQ6IlBsYW50IHRoZXNlIHNlZWRzIHRvIGdyb3cgbGV0dHVjZS4ifV10ABVtaW5lY3JhZnQ6Y3VzdG9tX25hbWV0AC57Y29sb3I6IndoaXRlIixpdGFsaWM6MGIsdGV4dDoiTGV0dHVjZSBTZWVkcyJ9dAAbbWluZWNyYWZ0OmN1c3RvbV9tb2RlbF9kYXRhdAATe2Zsb2F0czpbMTAwMzUuMGZdfXQAFW1pbmVjcmFmdDpjdXN0b21fZGF0YXQAOXtpdGVtc2FkZGVyOntpZDoibGV0dHVjZV9zZWVkcyIsbmFtZXNwYWNlOiJjdXN0b21jcm9wcyJ9fXQAE21pbmVjcmFmdDppdGVtX25hbWV0AC57Y29sb3I6IndoaXRlIixpdGFsaWM6MGIsdGV4dDoiTGV0dHVjZSBTZWVkcyJ9eABxAH4AFA\u003d\u003d",
+            "amount": "1"
+          },
+          "price": 0.0,
+          "stackSize": "1-2",
+          "randomDuration": false
+        }
+      ],
+      "fertilizer": []
+    }
+  ]
+}

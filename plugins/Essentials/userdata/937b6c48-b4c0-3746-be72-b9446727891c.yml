@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 183.171.101.15
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749360772073
+  login: 1749359141352
+money: '0'
+last-account-name: akari
+lastlocation:
+  world: a55aa827-92ff-4b5b-ad93-148a2dce7eaa
+  world-name: world
+  x: 5.5
+  y: 64.0
+  z: -9.5
+  yaw: 5.08263635635376
+  pitch: 0.0
+logoutlocation:
+  world: a55aa827-92ff-4b5b-ad93-148a2dce7eaa
+  world-name: world
+  x: -5.699999988079071
+  y: 64.0
+  z: -12.127292598771714
+  yaw: -50.692352294921875
+  pitch: 22.36234474182129

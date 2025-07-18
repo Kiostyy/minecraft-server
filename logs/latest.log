@@ -1,0 +1,308 @@
+[18:12:01] [ServerMain/INFO]: [bootstrap] Running Java 24 (Java HotSpot(TM) 64-Bit Server VM 24.0.2+12-54; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[18:12:01] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-114-ver/1.21.5@a1b3058 (2025-06-18T10:59:02Z) for Minecraft 1.21.5
+[18:12:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:12:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 14 plugins
+[18:12:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (14):
+ - Citizens (2.0.38-SNAPSHOT (build 3820)), Essentials (2.21.1), EssentialsChat (2.21.1), EssentialsSpawn (2.21.1), FastAsyncWorldEdit (2.13.1-SNAPSHOT-1128;67ecacf), GSit (2.4.2), ItemsAdder (4.0.11), LiteFarm (3.16.8), LuckPerms (5.5.0), Profitable (0.5.2-beta), ProtocolLib (5.4.0-SNAPSHOT-753), SkinsRestorer (15.7.7), Vault (1.7.3-b131), dtlTraders (6.4.34)
+[18:12:09] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:12:11] [ServerMain/INFO]: Loaded 1373 recipes
+[18:12:11] [ServerMain/INFO]: Loaded 1484 advancements
+[18:12:11] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[18:12:11] [Server thread/INFO]: Loading properties
+[18:12:11] [Server thread/INFO]: This server is running Paper version 1.21.5-114-ver/1.21.5@a1b3058 (2025-06-18T10:59:02Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[18:12:12] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:12:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:12:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:12:13] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[18:12:13] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[18:12:13] [Server thread/INFO]: Default game type: SURVIVAL
+[18:12:13] [Server thread/INFO]: Generating keypair
+[18:12:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:12:13] [Server thread/INFO]: Using default channel type
+[18:12:13] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[18:12:13] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[18:12:13] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 3 libraries... please wait
+[18:12:14] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\MC Server\libraries\ch\ethz\globis\phtree\phtree\2.8.2\phtree-2.8.2.jar
+[18:12:14] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\MC Server\libraries\org\joml\joml\1.10.8\joml-1.10.8.jar
+[18:12:14] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\MC Server\libraries\it\unimi\dsi\fastutil\8.5.15\fastutil-8.5.15.jar
+[18:12:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loading 14 libraries... please wait
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\beer\devs\FastNbt-jar\1.4.8\FastNbt-jar-1.4.8.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\org\apache\httpcomponents\httpmime\4.5.14\httpmime-4.5.14.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\commons-codec\commons-codec\1.11\commons-codec-1.11.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\sourceforge\streamsupport\speedy-math\1.0.0\speedy-math-1.0.0.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\org\fusesource\jansi\jansi\2.4.1\jansi-2.4.1.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\kyori\adventure-api\4.20.0\adventure-api-4.20.0.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\kyori\adventure-key\4.20.0\adventure-key-4.20.0.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\kyori\examination-api\1.3.0\examination-api-1.3.0.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\kyori\examination-string\1.3.0\examination-string-1.3.0.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\org\jetbrains\annotations\26.0.2\annotations-26.0.2.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\kyori\adventure-text-serializer-gson\4.20.0\adventure-text-serializer-gson-4.20.0.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\kyori\adventure-text-serializer-json\4.20.0\adventure-text-serializer-json-4.20.0.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\kyori\option\1.1.0\option-1.1.0.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\kyori\adventure-text-serializer-commons\4.20.0\adventure-text-serializer-commons-4.20.0.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\kyori\adventure-text-serializer-gson-legacy-impl\4.20.0\adventure-text-serializer-gson-legacy-impl-4.20.0.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\kyori\adventure-text-serializer-json-legacy-impl\4.20.0\adventure-text-serializer-json-legacy-impl-4.20.0.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\kyori\adventure-text-minimessage\4.20.0\adventure-text-minimessage-4.20.0.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\kyori\adventure-platform-bukkit\4.3.4\adventure-platform-bukkit-4.3.4.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\kyori\adventure-platform-api\4.3.4\adventure-platform-api-4.3.4.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\kyori\adventure-text-serializer-bungeecord\4.3.4\adventure-text-serializer-bungeecord-4.3.4.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\kyori\adventure-text-serializer-legacy\4.13.1\adventure-text-serializer-legacy-4.13.1.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\kyori\adventure-nbt\4.13.1\adventure-nbt-4.13.1.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\kyori\adventure-platform-facet\4.3.4\adventure-platform-facet-4.3.4.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\kyori\adventure-platform-viaversion\4.3.4\adventure-platform-viaversion-4.3.4.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\com\alibaba\fastjson\2.0.43\fastjson-2.0.43.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\com\alibaba\fastjson2\fastjson2-extension\2.0.43\fastjson2-extension-2.0.43.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\com\alibaba\fastjson2\fastjson2\2.0.43\fastjson2-2.0.43.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\minidev\json-smart\2.4.10\json-smart-2.4.10.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\net\minidev\accessors-smart\2.4.9\accessors-smart-2.4.9.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\org\ow2\asm\asm\9.3\asm-9.3.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\com\jeff-media\armor-equip-event\1.0.3\armor-equip-event-1.0.3.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\fr\skytasul\glowingentities\1.4.3\glowingentities-1.4.3.jar
+[18:12:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\MC Server\libraries\fr\skytasul\reflection-remapper\1.0.0\reflection-remapper-1.0.0.jar
+[18:12:17] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
+[18:12:18] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0-SNAPSHOT-753
+[18:12:19] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[18:12:19] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.38-SNAPSHOT (build 3820)
+[18:12:19] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1
+[18:12:19] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.7
+[18:12:19] [Server thread/INFO]: [Profitable] Loading server plugin Profitable v0.5.2-beta
+[18:12:19] [Server thread/INFO]: [LiteFarm] Loading server plugin LiteFarm v3.16.8
+[18:12:19] [Server thread/INFO]: [ItemsAdder] Loading server plugin ItemsAdder v4.0.11
+[18:12:19] [Server thread/INFO]: [GSit] Loading server plugin GSit v2.4.2
+[18:12:19] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.13.1-SNAPSHOT-1128;67ecacf
+[18:12:20] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@32204bd9]
+[18:12:20] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.1
+[18:12:20] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.1
+[18:12:20] [Server thread/INFO]: [dtlTraders] Loading server plugin dtlTraders v6.4.34
+[18:12:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:12:20] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
+[18:12:21] [Server thread/INFO]:         __    
+[18:12:21] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
+[18:12:21] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:12:21] [Server thread/INFO]: 
+[18:12:21] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:12:21] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:12:21] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:12:21] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:12:21] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1302ms)
+[18:12:21] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0-SNAPSHOT-753
+[18:12:21] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[18:12:22] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[18:12:22] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:12:22] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[18:12:22] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[18:12:22] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.7
+[18:12:23] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.5.
+[18:12:23] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[18:12:23] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1128;67ecacf
+[18:12:23] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[18:12:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:12:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[18:12:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[18:12:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[18:12:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[18:12:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[18:12:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:12:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.7
+[18:12:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eff058
+[18:12:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[18:12:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:12:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[18:12:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[18:12:24] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[18:12:24] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:12:24] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[18:12:24] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_5.PaperweightFaweAdapter as the Bukkit adapter
+[18:12:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:12:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:12:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:12:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:12:25] [Server thread/INFO]: Preparing level "world"
+[18:12:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:12:25] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 1 build(s) out of date.
+You are running build 1128, the latest version is build 1129.
+Update at https://ci.athion.net/job/FastAsyncWorldEdit
+[18:12:25] [Server thread/INFO]: Preparing spawn area: 0%
+[18:12:26] [Server thread/INFO]: Preparing spawn area: 0%
+[18:12:26] [Server thread/INFO]: Time elapsed: 867 ms
+[18:12:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:12:26] [Server thread/INFO]: Preparing spawn area: 0%
+[18:12:26] [Server thread/INFO]: Time elapsed: 129 ms
+[18:12:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:12:26] [Server thread/INFO]: Preparing spawn area: 0%
+[18:12:26] [Server thread/INFO]: Time elapsed: 146 ms
+[18:12:26] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.38-SNAPSHOT (build 3820)
+[18:12:28] [Server thread/INFO]: [Citizens] Using mojmapped server, avoiding server package checks
+[18:12:29] [Server thread/INFO]: [Citizens] Loaded 0 templates.
+[18:12:29] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[18:12:29] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
+[18:12:29] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[18:12:29] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[18:12:29] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[18:12:29] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[18:12:29] [Server thread/INFO]: [Essentials] Using locale en_US
+[18:12:30] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:12:30] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:12:30] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[18:12:30] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[18:12:30] [Server thread/INFO]: [Profitable] Enabling Profitable v0.5.2-beta
+[18:12:30] [Server thread/INFO]: [Profitable] ====================    Profitable    ====================
+[18:12:30] [Server thread/INFO]: [Profitable] Connected to SQLite database
+[18:12:30] [Server thread/INFO]: [Profitable] Migrating database...
+[18:12:30] [Server thread/INFO]: [Profitable] No migration needed!
+[18:12:30] [Server thread/INFO]: [Profitable] Connected to Vault
+[18:12:30] [Server thread/INFO]: [Profitable] Using single server-wide data
+[18:12:30] [Server thread/INFO]: [Profitable] Using $ as main currency on the exchange
+[18:12:30] [Server thread/INFO]: [Profitable] ==========    Profitable is ready to profit!    ==========
+[18:12:30] [Server thread/INFO]: [LiteFarm] Enabling LiteFarm v3.16.8
+[18:12:31] [Server thread/INFO]: [ItemsAdder] Enabling ItemsAdder v4.0.11
+[18:12:32] [Server thread/WARN]: ItemsAdder) Using default server address: . Consider setting it in the `config.yml`
+[18:12:32] [Server thread/WARN]: ItemsAdder) Using default server port: 25565. Consider setting it in the `config.yml`
+[18:12:32] [Server thread/INFO]: ItemsAdder) 
+                                                   ItemsAdder 4.0.11
+  ___  ___        __        __   __   ___  __      ProtocolLib 5.4.0-SNAPSHOT-753
+|  |  |__   |\/| /__`  /\  |  \ |  \ |__  |__)     Paper 1.21.5-114-a1b3058 (MC: 1.21.5)
+|  |  |___  |  | .__/ /--\ |__/ |__/ |___ |  \     Build Date: 2025-06-10_18.20.51
+                                                   Java Version: 24.0.2
+                                                   OS: Windows 11 10.0                                               
+[18:12:32] [Server thread/INFO]: [ItemsAdder] Loading GlowingEntities API
+[18:12:32] [Server thread/INFO]: [GlowingEntities] [GlowingEntities] Found server version 1.21.5
+[18:12:32] [Server thread/INFO]: [GlowingEntities] [GlowingEntities] Loaded transparent mappings.
+[18:12:32] [Server thread/INFO]: ItemsAdder) Registered Citizens NPC Trait: customentity
+[18:12:32] [Server thread/INFO]: ItemsAdder) [Libs] FFmpeg is available at: C:\MC Server\plugins\ItemsAdder\storage\cache\ffmpeg\windows\ffmpeg.exe
+[18:12:33] [Server thread/INFO]: ItemsAdder) [Host] Starting self-host webserver on port: 8766
+[18:12:33] [Server thread/INFO]: ItemsAdder) [SelfHost] Rate limiter: max 3 requests / 2s.
+[18:12:33] [Server thread/INFO]: ItemsAdder) [SelfHost] Clients exceeding 5 times will be blocked for 30m.
+[18:12:33] [Server thread/INFO]: ItemsAdder) [Pack] Extracting internal contents from .jar
+[18:12:33] [Server thread/INFO]: ItemsAdder) [Pack] Extracted 0 default files. No files changes detected.
+[18:12:34] [Server thread/INFO]: [GSit] Enabling GSit v2.4.2
+[18:12:34] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[18:12:34] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.1
+[18:12:34] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[18:12:34] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.1
+[18:12:34] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[18:12:34] [Server thread/INFO]: [dtlTraders] Enabling dtlTraders v6.4.34
+[18:12:34] [Server thread/INFO]: dtlTraders> Welcome to dtlTraders v6.4.34!
+[18:12:34] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[18:12:41] [Server thread/INFO]: dtlTraders> Trying to hook into any Vault supported plugin...
+[18:12:41] [Server thread/INFO]: dtlTraders> Vault found! Trying to hook...
+[18:12:41] [Server thread/INFO]: dtlTraders> Found economy plugin: EssentialsX Economy
+[18:12:41] [Server thread/INFO]: dtlTraders> Loaded 2 guis from the guis config!
+[18:12:41] [Server thread/INFO]: dtlTraders> Hooking into Citizens!
+[18:12:41] [Server thread/INFO]: dtlTraders> dtlTraders is managed by Degitise. www.degitise.com
+[18:12:41] [Server thread/INFO]: dtlTraders> Unlock premium features with dtlTradersPlus!
+[18:12:41] [Server thread/INFO]: dtlTraders> Buy your copy at: https://www.spigotmc.org/resources/dtltradersplus.63690/
+[18:12:42] [Server thread/INFO]: [spark] Starting background profiler...
+[18:12:42] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[18:12:42] [Server thread/INFO]: Done preparing level "world" (17.026s)
+[18:12:42] [Server thread/INFO]: Running delayed init tasks
+[18:12:42] [Craft Scheduler Thread - 5 - Essentials/INFO]: [Essentials] Fetching version information...
+[18:12:42] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[18:12:42] [Craft Scheduler Thread - 10 - ItemsAdder/INFO]: ItemsAdder) [Content] Loaded 67 items
+[18:12:42] [Craft Scheduler Thread - 10 - ItemsAdder/INFO]: ItemsAdder) Used Blocks IDs:
+[18:12:42] [Craft Scheduler Thread - 10 - ItemsAdder/INFO]: ItemsAdder)  - REAL 0/188
+[18:12:42] [Craft Scheduler Thread - 10 - ItemsAdder/INFO]: ItemsAdder)  - REAL_NOTE 0/750
+[18:12:42] [Craft Scheduler Thread - 10 - ItemsAdder/INFO]: ItemsAdder)  - REAL_TRANSPARENT 0/63
+[18:12:42] [Craft Scheduler Thread - 10 - ItemsAdder/INFO]: ItemsAdder)  - REAL_WIRE 24/127
+[18:12:42] [Craft Scheduler Thread - 10 - ItemsAdder/INFO]: ItemsAdder) Used Font Images: 27/6608
+[18:12:42] [Craft Scheduler Thread - 10 - ItemsAdder/INFO]: ItemsAdder) [Content] Loaded 1 categories
+[18:12:42] [Craft Scheduler Thread - 10 - ItemsAdder/INFO]: ItemsAdder) [Content] Contents loaded successfully!
+[18:12:42] [Server thread/INFO]: [Citizens] Loaded 2 NPCs.
+[18:12:42] [Craft Scheduler Thread - 10 - ItemsAdder/INFO]: ItemsAdder) ResourcePack
+[18:12:42] [Craft Scheduler Thread - 10 - ItemsAdder/INFO]: ItemsAdder)  - Path: MC Server/plugins/ItemsAdder/output/generated.zip
+[18:12:42] [Craft Scheduler Thread - 10 - ItemsAdder/INFO]: ItemsAdder)  - Download: http://kiostz.ddns.net:8766/generated.zip
+[18:12:42] [Craft Scheduler Thread - 10 - ItemsAdder/INFO]: ItemsAdder)  - Size: 160 KB/250 MB (0%)
+[18:12:42] [Craft Scheduler Thread - 6 - Profitable/INFO]: [Profitable] Up to date!
+[18:12:42] [Server thread/INFO]: ItemsAdder) Reloading ItemsAdder Custom Entities Citizens NPCs...
+[18:12:42] [Server thread/INFO]: ItemsAdder) Reloaded 0 ItemsAdder Custom Entities Citizens NPCs.
+[18:12:42] [Server thread/INFO]: Done (43.259s)! For help, type "help"
+[18:12:42] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] Checking for Updates ... 
+[18:12:43] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] No new version available
+[18:12:43] [Craft Scheduler Thread - 8 - ItemsAdder/INFO]: ItemsAdder) [License] Spigot product licensed to: Kiostz (399708)
+[18:13:42] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[18:27:52] [Server thread/INFO]: Stopping the server
+[18:27:52] [Server thread/INFO]: Stopping server
+[18:27:52] [Server thread/INFO]: [dtlTraders] Disabling dtlTraders v6.4.34
+[18:27:52] [Server thread/INFO]: dtlTraders> Saving shops before shutting down...
+[18:27:52] [Server thread/INFO]: dtlTraders> Shops Saved!
+[18:27:52] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.1
+[18:27:52] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.1
+[18:27:52] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1128;67ecacf
+[18:27:52] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:27:52] [Server thread/INFO]: [GSit] Disabling GSit v2.4.2
+[18:27:52] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[18:27:52] [Server thread/INFO]: [ItemsAdder] Disabling ItemsAdder v4.0.11
+[18:27:52] [pool-22-thread-1/INFO]: ItemsAdder) [Host] Stopped self-host webserver on port: 8766
+[18:27:52] [Server thread/INFO]: [LiteFarm] Disabling LiteFarm v3.16.8
+[18:27:52] [Server thread/INFO]: [Profitable] Disabling Profitable v0.5.2-beta
+[18:27:52] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.7
+[18:27:52] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.1
+[18:27:52] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[18:27:52] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.38-SNAPSHOT (build 3820)
+[18:27:52] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[18:27:52] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0-SNAPSHOT-753
+[18:27:52] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.0
+[18:27:52] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[18:27:52] [Server thread/INFO]: [LuckPerms] Closing storage...
+[18:27:52] [Server thread/INFO]: [LuckPerms] Goodbye!
+[18:27:52] [Server thread/INFO]: Saving players
+[18:27:52] [Server thread/INFO]: Saving worlds
+[18:27:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:27:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:27:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:27:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:27:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 31 entity chunks, 0 poi chunks in world 'world' in 0.05s
+[18:27:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[18:27:52] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[18:27:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:27:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:27:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:27:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:27:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[18:27:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[18:27:52] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[18:27:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:27:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:27:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:27:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:27:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[18:27:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[18:27:52] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[18:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:27:52] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[18:27:52] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[18:27:52] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[18:27:52] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

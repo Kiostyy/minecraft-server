@@ -1,0 +1,16 @@
+info:
+  namespace: customcrops
+items:
+  bellpepper:
+    enabled: true
+    display_name: Bell Pepper
+    lore:
+      - "&7&oA sweet and crunchy vegetable, perfect for salads and cooking."
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - item/bellpepper/bellpepper # Link to ItemsAdder/contents/textures/item/bellpepper/{filename}.png
+    consumable:
+      nutrition: 1
+      saturation: 1
